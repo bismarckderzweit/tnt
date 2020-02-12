@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKBiasCorrection-4.13.a  CMakeFiles/ITKBiasCorrection.dir/itkCompositeValleyFunction.cxx.o CMakeFiles/ITKBiasCorrection.dir/itkCacheableScalarFunction.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKBiasCorrection-4.13.a

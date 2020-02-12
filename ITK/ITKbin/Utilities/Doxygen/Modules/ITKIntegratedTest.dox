@@ -1,0 +1,11 @@
+/**
+ \defgroup ITKIntegratedTest Module ITKIntegratedTest 
+ This modules contains tests targeting the behavior of
+multiple modules of the toolkit when they act together. 
+ \par Dependencies:
+ \dot 
+ graph "ITKIntegratedTest" { 
+ } 
+ \enddot 
+ */
+

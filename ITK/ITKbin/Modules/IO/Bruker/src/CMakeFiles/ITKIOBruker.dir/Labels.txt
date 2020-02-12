@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOBruker
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Bruker/src/itkBruker2dseqImageIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Bruker/src/itkBruker2dseqImageIO.cxx

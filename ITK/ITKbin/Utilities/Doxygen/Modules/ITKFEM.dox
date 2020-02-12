@@ -1,0 +1,20 @@
+/**
+ \defgroup ITKFEM Module ITKFEM 
+ This modules provides code to perform finite element
+analysis.  A structural mechanics finite element model can, for instance, be
+used for image registration. 
+ \par Dependencies:
+ \li \ref ITKIOSpatialObjects 
+ \li \ref ITKImageFunction 
+ \li \ref ITKRegistrationCommon 
+ \li \ref ITKSpatialObjects 
+ \dot 
+ graph "ITKFEM" { 
+ "ITKFEM" -- "ITKIOSpatialObjects"; 
+ "ITKFEM" -- "ITKImageFunction"; 
+ "ITKFEM" -- "ITKRegistrationCommon"; 
+ "ITKFEM" -- "ITKSpatialObjects"; 
+ } 
+ \enddot 
+ */
+

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKVideoIO-4.13.a  CMakeFiles/ITKVideoIO.dir/itkFileListVideoIO.cxx.o CMakeFiles/ITKVideoIO.dir/itkFileListVideoIOFactory.cxx.o CMakeFiles/ITKVideoIO.dir/itkVideoIOBase.cxx.o CMakeFiles/ITKVideoIO.dir/itkVideoIOFactory.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKVideoIO-4.13.a

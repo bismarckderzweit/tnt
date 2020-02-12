@@ -1,0 +1,15 @@
+/**
+ \defgroup ITKIOMINC Module ITKIOMINC 
+ This module contains classes for reading and writing image
+files in the MINC 2 file Format (mnc) and transformations (xfm). 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \li \ref ITKMINC 
+ \dot 
+ graph "ITKIOMINC" { 
+ "ITKIOMINC" -- "ITKIOImageBase"; 
+ "ITKIOMINC" -- "ITKMINC"; 
+ } 
+ \enddot 
+ */
+

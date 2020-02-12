@@ -1,0 +1,13 @@
+set(ITKQuadEdgeMeshFiltering_LOADED 1)
+set(ITKQuadEdgeMeshFiltering_ENABLE_SHARED "0")
+set(ITKQuadEdgeMeshFiltering_DEPENDS "ITKMesh;ITKQuadEdgeMesh")
+set(ITKQuadEdgeMeshFiltering_PUBLIC_DEPENDS "ITKMesh")
+set(ITKQuadEdgeMeshFiltering_TRANSITIVE_DEPENDS "ITKMesh;ITKQuadEdgeMesh")
+set(ITKQuadEdgeMeshFiltering_PRIVATE_DEPENDS "")
+set(ITKQuadEdgeMeshFiltering_LIBRARIES "ITKMesh;ITKQuadEdgeMesh")
+set(ITKQuadEdgeMeshFiltering_INCLUDE_DIRS "${ITK_INSTALL_PREFIX}/include/ITK-4.13")
+set(ITKQuadEdgeMeshFiltering_LIBRARY_DIRS "")
+set(ITKQuadEdgeMeshFiltering_RUNTIME_LIBRARY_DIRS "${ITK_INSTALL_PREFIX}/lib")
+set(ITKQuadEdgeMeshFiltering_TARGETS_FILE "")
+set(ITKQuadEdgeMeshFiltering_FACTORY_NAMES "")
+

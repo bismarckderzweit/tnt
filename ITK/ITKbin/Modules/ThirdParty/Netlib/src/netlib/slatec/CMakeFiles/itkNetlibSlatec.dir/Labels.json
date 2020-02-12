@@ -1,0 +1,73 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d1mach.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgmc.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d9gmit.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgic.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgit.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dbetai.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dcsevl.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dgami.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamit.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamlm.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamma.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamr.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dlbeta.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dlgams.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dlngam.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dlnrel.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/initds.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/xermsg.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d_int.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d_mod.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKNetlib"
+		],
+		"name" : "itkNetlibSlatec"
+	}
+}

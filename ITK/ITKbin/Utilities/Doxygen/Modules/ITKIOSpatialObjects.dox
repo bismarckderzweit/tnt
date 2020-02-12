@@ -1,0 +1,20 @@
+/**
+ \defgroup ITKIOSpatialObjects Module ITKIOSpatialObjects 
+ This module contains classes for reading and writing
+SpatialObjects as opposed to general images.  The SpatialObjects are written in
+<a
+href="http://www.vtk.org/Wiki/MetaIO/Documentation#Spatial_Objects">MetaIO</a>
+format. 
+ \par Dependencies:
+ \li \ref ITKIOXML 
+ \li \ref ITKMesh 
+ \li \ref ITKSpatialObjects 
+ \dot 
+ graph "ITKIOSpatialObjects" { 
+ "ITKIOSpatialObjects" -- "ITKIOXML"; 
+ "ITKIOSpatialObjects" -- "ITKMesh"; 
+ "ITKIOSpatialObjects" -- "ITKSpatialObjects"; 
+ } 
+ \enddot 
+ */
+

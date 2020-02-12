@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Core/QuadEdgeMesh/src/itkQuadEdge.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKQuadEdgeMesh"
+		],
+		"name" : "ITKQuadEdgeMesh"
+	}
+}

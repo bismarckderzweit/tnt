@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOHDF5-4.13.a  CMakeFiles/ITKIOHDF5.dir/itkHDF5ImageIOFactory.cxx.o CMakeFiles/ITKIOHDF5.dir/itkHDF5ImageIO.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOHDF5-4.13.a

@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/PNG/src/itkPNGImageIOFactory.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/PNG/src/itkPNGImageIO.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOPNG"
+		],
+		"name" : "ITKIOPNG"
+	}
+}

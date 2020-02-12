@@ -1,0 +1,17 @@
+/**
+ \defgroup ITKNarrowBand Module ITKNarrowBand 
+ This module contains code for data types and calculation on a
+narrow band of space. 
+ \par Dependencies:
+ \li \ref ITKCurvatureFlow 
+ \li \ref ITKFiniteDifference 
+ \li \ref ITKImageIntensity 
+ \dot 
+ graph "ITKNarrowBand" { 
+ "ITKNarrowBand" -- "ITKCurvatureFlow"; 
+ "ITKNarrowBand" -- "ITKFiniteDifference"; 
+ "ITKNarrowBand" -- "ITKImageIntensity"; 
+ } 
+ \enddot 
+ */
+

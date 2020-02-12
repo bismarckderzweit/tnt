@@ -1,0 +1,13 @@
+set(ITKFFT_LOADED 1)
+set(ITKFFT_ENABLE_SHARED "0")
+set(ITKFFT_DEPENDS "ITKCommon;ITKImageGrid")
+set(ITKFFT_PUBLIC_DEPENDS "")
+set(ITKFFT_TRANSITIVE_DEPENDS "ITKImageGrid")
+set(ITKFFT_PRIVATE_DEPENDS "ITKCommon")
+set(ITKFFT_LIBRARIES "ITKCommon;ITKStatistics;ITKTransform")
+set(ITKFFT_INCLUDE_DIRS "/Users/kit/Documents/ITK/InsightToolKit/Modules/Filtering/FFT/include")
+set(ITKFFT_LIBRARY_DIRS "")
+set(ITKFFT_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKFFT_TARGETS_FILE "")
+set(ITKFFT_FACTORY_NAMES "")
+

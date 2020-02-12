@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Filtering/Path/src/itkChainCodePath2D.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Filtering/Path/src/itkOrthogonallyCorrected2DParametricPath.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKPath"
+		],
+		"name" : "ITKPath"
+	}
+}

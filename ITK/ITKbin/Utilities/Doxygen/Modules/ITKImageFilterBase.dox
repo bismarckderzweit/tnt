@@ -1,0 +1,17 @@
+/**
+ \defgroup ITKImageFilterBase Module ITKImageFilterBase 
+ This module contains the base classes that support image
+filters. For the most part, these are classes that developers will use to
+create new image filters (and that are the base classes of existing image
+filters). You will find here: Unary, Binary and Ternary Functor filters, Noise
+sources, recursive separable filters and the base classes for neighborhood
+filters. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \dot 
+ graph "ITKImageFilterBase" { 
+ "ITKImageFilterBase" -- "ITKCommon"; 
+ } 
+ \enddot 
+ */
+

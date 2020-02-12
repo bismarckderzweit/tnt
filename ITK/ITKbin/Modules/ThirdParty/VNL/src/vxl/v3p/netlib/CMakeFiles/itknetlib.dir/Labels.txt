@@ -1,0 +1,5 @@
+# Target labels
+ ITKVNL
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/v3p/netlib/triangle.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/v3p/netlib/triangle.h

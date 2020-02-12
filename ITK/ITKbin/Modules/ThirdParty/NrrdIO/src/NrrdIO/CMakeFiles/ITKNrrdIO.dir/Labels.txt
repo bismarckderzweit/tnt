@@ -1,0 +1,44 @@
+# Target labels
+ ITKNrrdIO
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/754.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/mop.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/array.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/parseAir.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/dio.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/sane.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/endianAir.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/string.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/enum.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/miscAir.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/biffbiff.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/biffmsg.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/accessors.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/defaultsNrrd.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/enumsNrrd.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/arraysNrrd.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/methodsNrrd.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/reorder.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/axis.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/simple.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/comment.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/keyvalue.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/endianNrrd.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/parseNrrd.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/gzio.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/read.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/write.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/format.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatNRRD.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encoding.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingRaw.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingAscii.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingHex.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingGzip.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/subset.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingBzip2.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatEPS.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatPNG.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatPNM.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatText.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatVTK.c

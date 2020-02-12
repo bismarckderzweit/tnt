@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/TransformFactory/src/itkTransformFactoryBase.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/TransformFactory/src/itkTransformFactoryBaseRegisterFloatParameters.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/TransformFactory/src/itkTransformFactoryBaseRegisterDoubleParameters.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKTransformFactory"
+		],
+		"name" : "ITKTransformFactory"
+	}
+}

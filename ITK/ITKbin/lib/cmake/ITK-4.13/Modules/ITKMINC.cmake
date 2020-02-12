@@ -1,0 +1,13 @@
+set(ITKMINC_LOADED 1)
+set(ITKMINC_ENABLE_SHARED "0")
+set(ITKMINC_DEPENDS "ITKHDF5;ITKKWSys;ITKZLIB")
+set(ITKMINC_PUBLIC_DEPENDS "ITKHDF5;ITKKWSys;ITKZLIB")
+set(ITKMINC_TRANSITIVE_DEPENDS "ITKHDF5;ITKKWSys;ITKZLIB")
+set(ITKMINC_PRIVATE_DEPENDS "")
+set(ITKMINC_LIBRARIES "itkminc2")
+set(ITKMINC_INCLUDE_DIRS "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/MINC;/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC;/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc;/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon;/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2;/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include;/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5;/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/HDF5/src/itkhdf5;/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/src")
+set(ITKMINC_LIBRARY_DIRS "")
+set(ITKMINC_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKMINC_TARGETS_FILE "")
+set(ITKMINC_FACTORY_NAMES "")
+

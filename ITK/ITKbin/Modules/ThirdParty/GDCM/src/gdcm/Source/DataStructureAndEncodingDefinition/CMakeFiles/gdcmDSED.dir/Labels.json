@@ -1,0 +1,163 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmByteValue.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmDataElement.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmDataSet.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmExplicitDataElement.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmFile.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmFileMetaInformation.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmFragment.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmImplicitDataElement.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmItem.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmMediaStorage.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmPrivateTag.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmReader.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmSequenceOfFragments.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmSequenceOfItems.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmValue.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmReader.strict.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmTag.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmTagToVR.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmCodeString.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmFileSet.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmByteSwapFilter.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmUNExplicitImplicitDataElement.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmWriter.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmCSAHeader.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmMrProtocol.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmPDBHeader.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmTransferSyntax.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmVM.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmVR.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmPreamble.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmParseException.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmUNExplicitDataElement.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmCP246ExplicitDataElement.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmExplicitImplicitDataElement.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmVR16ExplicitDataElement.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmByteValue.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmDataElement.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmDataSet.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmExplicitDataElement.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmFile.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmFileMetaInformation.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmFragment.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmImplicitDataElement.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmItem.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmMediaStorage.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmPrivateTag.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmReader.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmSequenceOfFragments.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmSequenceOfItems.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmValue.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKGDCM"
+		],
+		"name" : "gdcmDSED"
+	}
+}

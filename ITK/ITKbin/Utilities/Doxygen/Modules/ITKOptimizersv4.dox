@@ -1,0 +1,23 @@
+/**
+ \defgroup ITKOptimizersv4 Module ITKOptimizersv4 
+ This module contains ITK classes that encapsulate numerical
+optimizers using a new hierarchy developed for the needs of registration with high-dimensional transforms. These optimizers will NOT work with the metrics in Registration/Common, but rather with the new metrics in Registration/Metricsv4. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKDisplacementField 
+ \li \ref ITKImageGrid 
+ \li \ref ITKLIBLBFGS 
+ \li \ref ITKOptimizers 
+ \li \ref ITKTransform 
+ \dot 
+ graph "ITKOptimizersv4" { 
+ "ITKOptimizersv4" -- "ITKCommon"; 
+ "ITKOptimizersv4" -- "ITKDisplacementField"; 
+ "ITKOptimizersv4" -- "ITKImageGrid"; 
+ "ITKOptimizersv4" -- "ITKLIBLBFGS"; 
+ "ITKOptimizersv4" -- "ITKOptimizers"; 
+ "ITKOptimizersv4" -- "ITKTransform"; 
+ } 
+ \enddot 
+ */
+

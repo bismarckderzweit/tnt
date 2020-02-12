@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/VTK/src/itkVTKImageIOFactory.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/VTK/src/itkVTKImageIO.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOVTK"
+		],
+		"name" : "ITKIOVTK"
+	}
+}

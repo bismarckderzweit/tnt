@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKLabelMap-4.13.a  CMakeFiles/ITKLabelMap.dir/itkGeometryUtilities.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKLabelMap-4.13.a

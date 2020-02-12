@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOHDF5
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/HDF5/src/itkHDF5ImageIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/HDF5/src/itkHDF5ImageIO.cxx

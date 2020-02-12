@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKKLMRegionGrowing-4.13.a  CMakeFiles/ITKKLMRegionGrowing.dir/itkSegmentationRegion.cxx.o CMakeFiles/ITKKLMRegionGrowing.dir/itkKLMSegmentationRegion.cxx.o CMakeFiles/ITKKLMRegionGrowing.dir/itkSegmentationBorder.cxx.o CMakeFiles/ITKKLMRegionGrowing.dir/itkKLMSegmentationBorder.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKKLMRegionGrowing-4.13.a

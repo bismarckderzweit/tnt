@@ -1,0 +1,4 @@
+# Target labels
+ ITKGoogleTest
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GoogleTest/src/itkgoogletest/googletest/src/gtest-all.cc

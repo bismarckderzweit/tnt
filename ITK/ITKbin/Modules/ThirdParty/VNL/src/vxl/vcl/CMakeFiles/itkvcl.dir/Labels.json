@@ -1,0 +1,211 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_compiler.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_compiler_detection.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_deprecated.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_deprecated.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cmath.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cassert.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cstdlib.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_algorithm.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_bitset.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cctype.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cerrno.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cfloat.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_ciso646.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_climits.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_clocale.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_complex.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_csetjmp.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_csignal.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cstdarg.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cstddef.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cstdio.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cstring.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_ctime.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cwchar.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_cwctype.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_deprecated_header.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_deque.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_exception.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_fstream.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_functional.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_iomanip.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_ios.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_iosfwd.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_iostream.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_istream.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_iterator.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_limits.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_list.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_locale.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_map.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_memory.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_new.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_numeric.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_ostream.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_queue.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_set.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_sstream.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_stack.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_stdexcept.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_stlfwd.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_streambuf.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_string.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_typeinfo.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_utility.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_valarray.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_vector.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_sys/time.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_sys/types.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/vcl_atomic_count.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/internal/vcl_atomic_count_gcc.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/internal/vcl_atomic_count_gcc_x86.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/internal/vcl_atomic_count_pthreads.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/internal/vcl_atomic_count_solaris.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/internal/vcl_atomic_count_sync.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/internal/vcl_atomic_count_win32.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl/internal/vcl_interlocked.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKVNL"
+		],
+		"name" : "itkvcl"
+	}
+}

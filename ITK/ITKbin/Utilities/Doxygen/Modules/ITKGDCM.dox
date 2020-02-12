@@ -1,0 +1,16 @@
+/**
+ \defgroup ITKGDCM Module ITKGDCM 
+ This module contains the third party <a
+href="http://sourceforge.net/projects/gdcm/">GDCM</a> library.
+Grassroots DiCoM is a C++ library for DICOM medical files. 
+ \par Dependencies:
+ \li \ref ITKExpat 
+ \li \ref ITKZLIB 
+ \dot 
+ graph "ITKGDCM" { 
+ "ITKGDCM" -- "ITKExpat"; 
+ "ITKGDCM" -- "ITKZLIB"; 
+ } 
+ \enddot 
+ */
+

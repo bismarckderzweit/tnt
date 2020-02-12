@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GoogleTest/src/itkgoogletest/googletest/src/gtest-all.cc"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKGoogleTest"
+		],
+		"name" : "gtest"
+	}
+}

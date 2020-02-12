@@ -1,0 +1,88 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_vector+ulonglong-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_fft_base+float.3-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_fft_base+float.4-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_matrix_fixed_ref+double.2.2-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_matrix_fixed_ref+double.2.3-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_fft_base+double.3-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_fft_base+double.4-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_c_vector+ushort-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_vector+ushort-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_matrix_fixed+double.3.12-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_c_vector+char-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_c_vector+short-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_matrix+short-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_matrix_fixed_ref+double.3.12-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_matrix_fixed_ref+double.4.4-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_matrix+char-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_vector+char-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_matrix+longlong-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_c_vector+ulonglong-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_matrix_fixed_ref+double.4.3-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_vector+longlong-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_matrix+ulonglong-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_c_vector+longlong-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_vector+short-.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNLInstantiation/src/vnl_matrix+ushort-.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKVNLInstantiation"
+		],
+		"name" : "ITKVNLInstantiation"
+	}
+}

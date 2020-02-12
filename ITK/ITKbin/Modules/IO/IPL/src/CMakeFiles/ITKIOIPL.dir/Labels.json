@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/IPL/src/itkIPLCommonImageIO.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/IPL/src/itkIPLFileNameList.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOIPL"
+		],
+		"name" : "ITKIOIPL"
+	}
+}

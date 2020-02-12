@@ -1,0 +1,23 @@
+/**
+ \defgroup ITKMathematicalMorphology Module ITKMathematicalMorphology 
+ This module contains classes that implement variations of
+mathematical morphology techniques for grayscale images. In addition to the classical erosion,
+dilation, opening and closing filters, you will find here geodesic operations,
+maxima and minima filters, and reconstruction filters. 
+ \par Dependencies:
+ \li \ref ITKConnectedComponents 
+ \li \ref ITKImageFilterBase 
+ \li \ref ITKImageGrid 
+ \li \ref ITKImageIntensity 
+ \li \ref ITKThresholding 
+ \dot 
+ graph "ITKMathematicalMorphology" { 
+ "ITKMathematicalMorphology" -- "ITKConnectedComponents"; 
+ "ITKMathematicalMorphology" -- "ITKImageFilterBase"; 
+ "ITKMathematicalMorphology" -- "ITKImageGrid"; 
+ "ITKMathematicalMorphology" -- "ITKImageIntensity"; 
+ "ITKMathematicalMorphology" -- "ITKThresholding"; 
+ } 
+ \enddot 
+ */
+

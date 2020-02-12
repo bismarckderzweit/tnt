@@ -1,0 +1,19 @@
+/**
+ \defgroup ITKConnectedComponents Module ITKConnectedComponents 
+ This module contains modules to identify and modify connected
+components.  Theses algorithms are commonly applied to binary or label map
+images.  See also \ref ITKClassifiers, \ref ITKLabelMap, and \ref
+ITKBinaryMathematicalMorphology. 
+ \par Dependencies:
+ \li \ref ITKImageGrid 
+ \li \ref ITKImageIntensity 
+ \li \ref ITKThresholding 
+ \dot 
+ graph "ITKConnectedComponents" { 
+ "ITKConnectedComponents" -- "ITKImageGrid"; 
+ "ITKConnectedComponents" -- "ITKImageIntensity"; 
+ "ITKConnectedComponents" -- "ITKThresholding"; 
+ } 
+ \enddot 
+ */
+

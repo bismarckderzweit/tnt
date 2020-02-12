@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Core/Mesh/src/itkMeshRegion.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Core/Mesh/src/itkSimplexMeshGeometry.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKMesh"
+		],
+		"name" : "ITKMesh"
+	}
+}

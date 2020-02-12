@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOMINC-4.13.a  CMakeFiles/ITKIOMINC.dir/itkMINCImageIO.cxx.o CMakeFiles/ITKIOMINC.dir/itkMINCImageIOFactory.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOMINC-4.13.a

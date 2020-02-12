@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOGDCM-4.13.a  CMakeFiles/ITKIOGDCM.dir/itkGDCMImageIO.cxx.o CMakeFiles/ITKIOGDCM.dir/itkGDCMImageIOFactory.cxx.o CMakeFiles/ITKIOGDCM.dir/itkGDCMSeriesFileNames.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOGDCM-4.13.a

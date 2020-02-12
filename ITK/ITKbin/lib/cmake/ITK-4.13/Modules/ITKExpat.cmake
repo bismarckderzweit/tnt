@@ -1,0 +1,13 @@
+set(ITKExpat_LOADED 1)
+set(ITKExpat_ENABLE_SHARED "0")
+set(ITKExpat_DEPENDS "")
+set(ITKExpat_PUBLIC_DEPENDS "")
+set(ITKExpat_TRANSITIVE_DEPENDS "")
+set(ITKExpat_PRIVATE_DEPENDS "")
+set(ITKExpat_LIBRARIES "ITKEXPAT")
+set(ITKExpat_INCLUDE_DIRS "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/Expat/src/expat;/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Expat/src/expat")
+set(ITKExpat_LIBRARY_DIRS "")
+set(ITKExpat_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKExpat_TARGETS_FILE "")
+set(ITKExpat_FACTORY_NAMES "")
+

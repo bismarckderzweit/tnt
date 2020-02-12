@@ -1,0 +1,11 @@
+/**
+ \defgroup ITKKWIML Module ITKKWIML 
+ This module contains the third party Kitware Information Macro library.
+ 
+ \par Dependencies:
+ \dot 
+ graph "ITKKWIML" { 
+ } 
+ \enddot 
+ */
+

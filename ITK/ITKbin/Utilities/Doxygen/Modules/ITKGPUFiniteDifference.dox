@@ -1,0 +1,18 @@
+/**
+ \defgroup ITKGPUFiniteDifference Module ITKGPUFiniteDifference 
+ This module contains the GPU implementations of base classes
+neede for finite difference image filters.  Most of the classes in this module
+are abstract and therefore are not intended to be instantiated by themselves. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKFiniteDifference 
+ \li \ref ITKGPUCommon 
+ \dot 
+ graph "ITKGPUFiniteDifference" { 
+ "ITKGPUFiniteDifference" -- "ITKCommon"; 
+ "ITKGPUFiniteDifference" -- "ITKFiniteDifference"; 
+ "ITKGPUFiniteDifference" -- "ITKGPUCommon"; 
+ } 
+ \enddot 
+ */
+

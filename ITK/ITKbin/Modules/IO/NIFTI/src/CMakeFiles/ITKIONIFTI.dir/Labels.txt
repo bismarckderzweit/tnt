@@ -1,0 +1,5 @@
+# Target labels
+ ITKIONIFTI
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/NIFTI/src/itkNiftiImageIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/NIFTI/src/itkNiftiImageIO.cxx

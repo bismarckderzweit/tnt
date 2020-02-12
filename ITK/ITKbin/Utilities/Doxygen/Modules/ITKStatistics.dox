@@ -1,0 +1,19 @@
+/**
+ \defgroup ITKStatistics Module ITKStatistics 
+ The Statistics module contains basic data structures,
+statistical algorithms, and a classification for general statistical analysis
+and classification problems.  This includes, for examples, classes for
+calculating histograms, calculating sample statistics, creating decision rules,
+or for performing statistical pattern classification.  Statistics are calculated
+on a Sample, which contains MeasurementVector's. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKNetlib 
+ \dot 
+ graph "ITKStatistics" { 
+ "ITKStatistics" -- "ITKCommon"; 
+ "ITKStatistics" -- "ITKNetlib"; 
+ } 
+ \enddot 
+ */
+

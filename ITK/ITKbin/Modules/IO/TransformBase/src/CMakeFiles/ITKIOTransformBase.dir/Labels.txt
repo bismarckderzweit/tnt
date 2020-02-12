@@ -1,0 +1,8 @@
+# Target labels
+ ITKIOTransformBase
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/TransformBase/src/itkCompositeTransformIOHelper.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/TransformBase/src/itkTransformFileReader.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/TransformBase/src/itkTransformFileWriterSpecializations.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/TransformBase/src/itkTransformIOBase.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/TransformBase/src/itkTransformIOFactory.cxx

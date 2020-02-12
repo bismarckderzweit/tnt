@@ -1,0 +1,34 @@
+# Target labels
+ ITKOptimizers
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkNonLinearOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkMultipleValuedCostFunction.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkSingleValuedCostFunction.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkConjugateGradientOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkRegularStepGradientDescentOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkLBFGSOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkExhaustiveOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkLevenbergMarquardtOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkSingleValuedNonLinearVnlOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkQuaternionRigidTransformGradientDescentOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkSPSAOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkSingleValuedVnlCostFunctionAdaptor.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkMultipleValuedNonLinearVnlOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkPowellOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkVersorRigid3DTransformOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkVersorTransformOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkOnePlusOneEvolutionaryOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkMultipleValuedNonLinearOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkLBFGSBOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkCumulativeGaussianOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkAmoebaOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkCumulativeGaussianCostFunction.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkFRPROptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkGradientDescentOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkSingleValuedNonLinearOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkRegularStepGradientDescentBaseOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkMultipleValuedVnlCostFunctionAdaptor.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkParticleSwarmOptimizerBase.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkParticleSwarmOptimizer.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizers/src/itkInitializationBiasedParticleSwarmOptimizer.cxx

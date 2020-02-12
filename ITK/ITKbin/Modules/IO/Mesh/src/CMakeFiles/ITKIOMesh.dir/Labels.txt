@@ -1,0 +1,21 @@
+# Target labels
+ ITKIOMesh
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkMeshFileReaderException.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkMeshFileWriterException.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkBYUMeshIO.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkBYUMeshIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkFreeSurferAsciiMeshIO.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkFreeSurferAsciiMeshIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkFreeSurferBinaryMeshIO.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkFreeSurferBinaryMeshIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkGiftiMeshIO.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkGiftiMeshIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkMeshIOBase.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkMeshIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkOBJMeshIO.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkOBJMeshIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkOFFMeshIO.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkOFFMeshIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkVTKPolyDataMeshIO.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Mesh/src/itkVTKPolyDataMeshIOFactory.cxx

@@ -1,0 +1,13 @@
+/**
+ \defgroup ITKPolynomials Module ITKPolynomials 
+ This module contains code for the calculation of polynomial
+functions. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \dot 
+ graph "ITKPolynomials" { 
+ "ITKPolynomials" -- "ITKCommon"; 
+ } 
+ \enddot 
+ */
+

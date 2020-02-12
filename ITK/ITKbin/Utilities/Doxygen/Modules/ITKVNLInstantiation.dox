@@ -1,0 +1,13 @@
+/**
+ \defgroup ITKVNLInstantiation Module ITKVNLInstantiation 
+ This module contains instantiated templates of basic data
+types found in the VNL third party module. 
+ \par Dependencies:
+ \li \ref ITKVNL 
+ \dot 
+ graph "ITKVNLInstantiation" { 
+ "ITKVNLInstantiation" -- "ITKVNL"; 
+ } 
+ \enddot 
+ */
+

@@ -1,0 +1,19 @@
+/**
+ \defgroup ITKIOTransformBase Module ITKIOTransformBase 
+ This module contains the base classes for the input and output
+of itkTransform objects. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKDisplacementField 
+ \li \ref ITKTransform 
+ \li \ref ITKTransformFactory 
+ \dot 
+ graph "ITKIOTransformBase" { 
+ "ITKIOTransformBase" -- "ITKCommon"; 
+ "ITKIOTransformBase" -- "ITKDisplacementField"; 
+ "ITKIOTransformBase" -- "ITKTransform"; 
+ "ITKIOTransformBase" -- "ITKTransformFactory"; 
+ } 
+ \enddot 
+ */
+

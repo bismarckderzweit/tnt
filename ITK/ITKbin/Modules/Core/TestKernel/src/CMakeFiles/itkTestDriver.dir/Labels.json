@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Core/TestKernel/src/itkTestDriver.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKTestKernel"
+		],
+		"name" : "itkTestDriver"
+	}
+}

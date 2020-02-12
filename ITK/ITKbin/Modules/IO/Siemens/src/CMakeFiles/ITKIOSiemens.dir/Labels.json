@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Siemens/src/itkSiemensVisionImageIOFactory.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Siemens/src/itkSiemensVisionImageIO.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOSiemens"
+		],
+		"name" : "ITKIOSiemens"
+	}
+}

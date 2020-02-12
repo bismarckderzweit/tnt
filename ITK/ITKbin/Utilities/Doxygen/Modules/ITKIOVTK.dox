@@ -1,0 +1,13 @@
+/**
+ \defgroup ITKIOVTK Module ITKIOVTK 
+ This module contains classes for reading and writing image
+files in the "legacy" (non-XML) VTK file format. 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \dot 
+ graph "ITKIOVTK" { 
+ "ITKIOVTK" -- "ITKIOImageBase"; 
+ } 
+ \enddot 
+ */
+

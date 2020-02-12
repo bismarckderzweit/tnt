@@ -1,0 +1,14 @@
+# Target labels
+ ITKZLIB
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/adler32.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/compress.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/crc32.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/deflate.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/gzio.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/inffast.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/inflate.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/inftrees.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/trees.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/uncompr.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/zutil.c

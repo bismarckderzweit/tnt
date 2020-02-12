@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOPNG
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/PNG/src/itkPNGImageIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/PNG/src/itkPNGImageIO.cxx

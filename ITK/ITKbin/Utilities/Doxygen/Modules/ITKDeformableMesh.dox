@@ -1,0 +1,21 @@
+/**
+ \defgroup ITKDeformableMesh Module ITKDeformableMesh 
+ This module contains classes to perform image segmentation by
+a deformable mesh that experiences a variety of forces. 
+ \par Dependencies:
+ \li \ref ITKAnisotropicSmoothing 
+ \li \ref ITKImageFeature 
+ \li \ref ITKImageIntensity 
+ \li \ref ITKMesh 
+ \li \ref ITKThresholding 
+ \dot 
+ graph "ITKDeformableMesh" { 
+ "ITKDeformableMesh" -- "ITKAnisotropicSmoothing"; 
+ "ITKDeformableMesh" -- "ITKImageFeature"; 
+ "ITKDeformableMesh" -- "ITKImageIntensity"; 
+ "ITKDeformableMesh" -- "ITKMesh"; 
+ "ITKDeformableMesh" -- "ITKThresholding"; 
+ } 
+ \enddot 
+ */
+

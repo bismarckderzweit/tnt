@@ -1,0 +1,17 @@
+/**
+ \defgroup ITKIONIFTI Module ITKIONIFTI 
+ This modules contains an ImageIO class to read or write the
+<a href="http://niftilib.sourceforge.net/">nifti</a> medical image format. 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \li \ref ITKNIFTI 
+ \li \ref ITKTransform 
+ \dot 
+ graph "ITKIONIFTI" { 
+ "ITKIONIFTI" -- "ITKIOImageBase"; 
+ "ITKIONIFTI" -- "ITKNIFTI"; 
+ "ITKIONIFTI" -- "ITKTransform"; 
+ } 
+ \enddot 
+ */
+

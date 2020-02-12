@@ -1,0 +1,13 @@
+/**
+ \defgroup ITKIOBMP Module ITKIOBMP 
+ This module contains ImageIO classes for reading the
+Microsoft Bitmap File Format (BMP). 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \dot 
+ graph "ITKIOBMP" { 
+ "ITKIOBMP" -- "ITKIOImageBase"; 
+ } 
+ \enddot 
+ */
+

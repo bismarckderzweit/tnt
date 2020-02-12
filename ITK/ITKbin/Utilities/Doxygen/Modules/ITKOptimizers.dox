@@ -1,0 +1,15 @@
+/**
+ \defgroup ITKOptimizers Module ITKOptimizers 
+ This module contains ITK classes that encapsulate numerical
+optimizers.  A set of base classes categorize the type of cost function an
+optimizer is capable of operating on, and the concrete classes provide
+implementations of specific algorithms. 
+ \par Dependencies:
+ \li \ref ITKStatistics 
+ \dot 
+ graph "ITKOptimizers" { 
+ "ITKOptimizers" -- "ITKStatistics"; 
+ } 
+ \enddot 
+ */
+

@@ -1,0 +1,265 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/convert.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/datatype.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/dimension.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/free.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/grpattr.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/hyper.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/label.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/m2util.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/record.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/slice.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/valid.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/volprops.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/volume.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/minc2_error.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/minc_config.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/minc_error.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/ParseArgv.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/read_file_names.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/restructure.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/time_stamp.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/minc2.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/minc2_defs.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/minc2_structs.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libsrc2/minc2_api.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/minc2_error.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/minc_config.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/minc_error.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/ParseArgv.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/read_file_names.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/restructure.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/time_stamp.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/libcommon/minc_common_defs.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Geometry/colour.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Geometry/colour_def.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Geometry/gaussian.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Geometry/inverse.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Geometry/newton.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Geometry/points.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Geometry/splines.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Geometry/tensors.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Geometry/transforms.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/MNI_formats/gen_xf_io.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/MNI_formats/gen_xfs.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/MNI_formats/grid_transforms.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/MNI_formats/mni_io.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/MNI_formats/tag_points.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/MNI_formats/thin_plate_spline.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Prog_utils/alloc.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Prog_utils/alloc_check.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Prog_utils/arrays.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Prog_utils/files.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Prog_utils/print.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Prog_utils/progress.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Prog_utils/string.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Prog_utils/time.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/evaluate.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/get_hyperslab.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/input_free.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/input_mnc.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/input_volume.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/multidim_arrays.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/output_mnc.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/output_volume.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/set_hyperslab.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/volume_cache.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/volumes.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/input_mnc2.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Volumes/output_mnc2.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/alloc.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/arrays.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/basic.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/def_math.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/files.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/geom_structs.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/geometry.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/multidim.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/progress.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/string_funcs.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/system_dependent.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/transforms.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/vol_io_prototypes.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/volume.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/MINC/src/libminc/volume_io/Include/volume_io/volume_cache.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKMINC"
+		],
+		"name" : "itkminc2"
+	}
+}

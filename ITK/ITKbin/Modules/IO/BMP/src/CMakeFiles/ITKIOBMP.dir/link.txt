@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOBMP-4.13.a  CMakeFiles/ITKIOBMP.dir/itkBMPImageIO.cxx.o CMakeFiles/ITKIOBMP.dir/itkBMPImageIOFactory.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOBMP-4.13.a

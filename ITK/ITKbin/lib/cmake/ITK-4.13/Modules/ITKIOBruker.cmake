@@ -1,0 +1,13 @@
+set(ITKIOBruker_LOADED 1)
+set(ITKIOBruker_ENABLE_SHARED "1")
+set(ITKIOBruker_DEPENDS "ITKIOImageBase")
+set(ITKIOBruker_PUBLIC_DEPENDS "")
+set(ITKIOBruker_TRANSITIVE_DEPENDS "")
+set(ITKIOBruker_PRIVATE_DEPENDS "ITKIOImageBase")
+set(ITKIOBruker_LIBRARIES "ITKIOBruker")
+set(ITKIOBruker_INCLUDE_DIRS "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/Bruker/include")
+set(ITKIOBruker_LIBRARY_DIRS "")
+set(ITKIOBruker_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKIOBruker_TARGETS_FILE "")
+set(ITKIOBruker_FACTORY_NAMES "ImageIO::Bruker2dseq")
+

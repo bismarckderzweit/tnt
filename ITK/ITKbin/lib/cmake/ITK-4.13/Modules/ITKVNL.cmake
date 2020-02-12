@@ -1,0 +1,13 @@
+set(ITKVNL_LOADED 1)
+set(ITKVNL_ENABLE_SHARED "0")
+set(ITKVNL_DEPENDS "")
+set(ITKVNL_PUBLIC_DEPENDS "")
+set(ITKVNL_TRANSITIVE_DEPENDS "")
+set(ITKVNL_PRIVATE_DEPENDS "")
+set(ITKVNL_LIBRARIES "itkvnl_algo;itkvnl;itkv3p_netlib;itknetlib;itkvcl")
+set(ITKVNL_INCLUDE_DIRS "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/v3p/netlib;/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/vcl;/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/core;/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/VNL/src/vxl/v3p/netlib;/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/VNL/src/vxl/vcl;/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/VNL/src/vxl/core")
+set(ITKVNL_LIBRARY_DIRS "")
+set(ITKVNL_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKVNL_TARGETS_FILE "")
+set(ITKVNL_FACTORY_NAMES "")
+

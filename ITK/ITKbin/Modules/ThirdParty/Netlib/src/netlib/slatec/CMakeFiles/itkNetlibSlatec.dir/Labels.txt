@@ -1,0 +1,23 @@
+# Target labels
+ ITKNetlib
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d1mach.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgmc.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d9gmit.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgic.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgit.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dbetai.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dcsevl.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dgami.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamit.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamlm.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamma.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamr.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dlbeta.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dlgams.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dlngam.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/dlnrel.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/initds.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/xermsg.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d_int.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Netlib/src/netlib/slatec/d_mod.c

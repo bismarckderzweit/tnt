@@ -1,0 +1,15 @@
+/**
+ \defgroup ITKIOJPEG Module ITKIOJPEG 
+ This module contains an ImageIO class for reading and
+writing files in the JPEG format. 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \li \ref ITKJPEG 
+ \dot 
+ graph "ITKIOJPEG" { 
+ "ITKIOJPEG" -- "ITKIOImageBase"; 
+ "ITKIOJPEG" -- "ITKJPEG"; 
+ } 
+ \enddot 
+ */
+

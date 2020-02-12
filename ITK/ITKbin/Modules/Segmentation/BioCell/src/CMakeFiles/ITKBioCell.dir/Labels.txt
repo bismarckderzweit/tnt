@@ -1,0 +1,8 @@
+# Target labels
+ ITKBioCell
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Segmentation/BioCell/src/itkBioGenome.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Segmentation/BioCell/src/itkBioGene.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Segmentation/BioCell/src/itkBioGeneNetwork.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Segmentation/BioCell/src/itkBioCellBase.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Segmentation/BioCell/src/itkBioCellularAggregateBase.cxx

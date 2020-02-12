@@ -1,0 +1,13 @@
+set(ITKSmoothing_LOADED 1)
+set(ITKSmoothing_ENABLE_SHARED "0")
+set(ITKSmoothing_DEPENDS "ITKImageFunction")
+set(ITKSmoothing_PUBLIC_DEPENDS "")
+set(ITKSmoothing_TRANSITIVE_DEPENDS "ITKImageFunction")
+set(ITKSmoothing_PRIVATE_DEPENDS "")
+set(ITKSmoothing_LIBRARIES "ITKCommon;ITKStatistics;ITKTransform")
+set(ITKSmoothing_INCLUDE_DIRS "/Users/kit/Documents/ITK/InsightToolKit/Modules/Filtering/Smoothing/include")
+set(ITKSmoothing_LIBRARY_DIRS "")
+set(ITKSmoothing_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKSmoothing_TARGETS_FILE "")
+set(ITKSmoothing_FACTORY_NAMES "")
+

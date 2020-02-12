@@ -1,0 +1,13 @@
+set(ITKGPUImageFilterBase_LOADED 1)
+set(ITKGPUImageFilterBase_ENABLE_SHARED "0")
+set(ITKGPUImageFilterBase_DEPENDS "ITKCommon;ITKGPUCommon;ITKImageFilterBase")
+set(ITKGPUImageFilterBase_PUBLIC_DEPENDS "ITKCommon;ITKGPUCommon")
+set(ITKGPUImageFilterBase_TRANSITIVE_DEPENDS "ITKCommon;ITKGPUCommon;ITKImageFilterBase")
+set(ITKGPUImageFilterBase_PRIVATE_DEPENDS "")
+set(ITKGPUImageFilterBase_LIBRARIES "ITKCommon")
+set(ITKGPUImageFilterBase_INCLUDE_DIRS "/Users/kit/Documents/ITK/InsightToolKit/Modules/Filtering/GPUImageFilterBase/include")
+set(ITKGPUImageFilterBase_LIBRARY_DIRS "")
+set(ITKGPUImageFilterBase_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKGPUImageFilterBase_TARGETS_FILE "")
+set(ITKGPUImageFilterBase_FACTORY_NAMES "")
+

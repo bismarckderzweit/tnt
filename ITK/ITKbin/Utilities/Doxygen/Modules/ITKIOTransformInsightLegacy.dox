@@ -1,0 +1,15 @@
+/**
+ \defgroup ITKIOTransformInsightLegacy Module ITKIOTransformInsightLegacy 
+ This module contains the classes for the input and output
+of itkTransform object in txt format. 
+ \par Dependencies:
+ \li \ref ITKDoubleConversion 
+ \li \ref ITKIOTransformBase 
+ \dot 
+ graph "ITKIOTransformInsightLegacy" { 
+ "ITKIOTransformInsightLegacy" -- "ITKDoubleConversion"; 
+ "ITKIOTransformInsightLegacy" -- "ITKIOTransformBase"; 
+ } 
+ \enddot 
+ */
+

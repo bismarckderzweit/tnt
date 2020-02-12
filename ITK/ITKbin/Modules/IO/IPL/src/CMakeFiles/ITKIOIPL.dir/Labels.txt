@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOIPL
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/IPL/src/itkIPLCommonImageIO.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/IPL/src/itkIPLFileNameList.cxx

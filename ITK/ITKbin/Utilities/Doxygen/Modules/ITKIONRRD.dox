@@ -1,0 +1,16 @@
+/**
+ \defgroup ITKIONRRD Module ITKIONRRD 
+ This module contains an ImageIO class to read and write the
+<a href="http://teem.sourceforge.net/nrrd/format.html/">Nearly Raw Raster Data
+(Nrrd)</a> medical image format. 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \li \ref ITKNrrdIO 
+ \dot 
+ graph "ITKIONRRD" { 
+ "ITKIONRRD" -- "ITKIOImageBase"; 
+ "ITKIONRRD" -- "ITKNrrdIO"; 
+ } 
+ \enddot 
+ */
+

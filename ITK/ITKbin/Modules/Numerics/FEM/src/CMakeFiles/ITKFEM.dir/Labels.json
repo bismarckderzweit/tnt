@@ -1,0 +1,154 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMSolution.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0LinearLine.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0LinearLineStress.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0LinearQuadrilateral.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0LinearQuadrilateralMembrane.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0LinearQuadrilateralStrain.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0LinearQuadrilateralStress.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0LinearTriangular.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0LinearTriangularMembrane.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0LinearTriangularStrain.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0LinearTriangularStress.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0QuadraticTriangular.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0QuadraticTriangularStrain.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC0QuadraticTriangularStress.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement2DC1Beam.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement3DC0LinearHexahedron.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement3DC0LinearHexahedronMembrane.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement3DC0LinearHexahedronStrain.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement3DC0LinearTetrahedron.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement3DC0LinearTetrahedronMembrane.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement3DC0LinearTetrahedronStrain.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement3DC0LinearTriangular.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement3DC0LinearTriangularLaplaceBeltrami.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElement3DC0LinearTriangularMembrane.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMElementBase.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMException.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMFactoryBase.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMItpackSparseMatrix.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLightObject.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLinearSystemWrapper.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLinearSystemWrapperDenseVNL.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLinearSystemWrapperItpack.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLinearSystemWrapperVNL.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLoadBC.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLoadBCMFC.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLoadBase.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLoadEdge.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLoadElementBase.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLoadGrav.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLoadLandmark.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLoadNoisyLandmark.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLoadNode.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMLoadPoint.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMMaterialBase.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMMaterialLinearElasticity.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/itkFEMUtility.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/FEM/src/dsrc2c.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKFEM"
+		],
+		"name" : "ITKFEM"
+	}
+}

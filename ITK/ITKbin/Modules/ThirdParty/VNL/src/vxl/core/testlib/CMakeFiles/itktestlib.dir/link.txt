@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../../../lib/libitktestlib-4.13.a  CMakeFiles/itktestlib.dir/testlib_test.cxx.o CMakeFiles/itktestlib.dir/testlib_main.cxx.o CMakeFiles/itktestlib.dir/testlib_root_dir.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../../../lib/libitktestlib-4.13.a

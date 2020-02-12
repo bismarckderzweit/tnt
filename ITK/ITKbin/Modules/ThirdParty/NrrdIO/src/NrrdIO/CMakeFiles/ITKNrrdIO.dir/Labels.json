@@ -1,0 +1,136 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/754.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/mop.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/array.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/parseAir.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/dio.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/sane.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/endianAir.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/string.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/enum.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/miscAir.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/biffbiff.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/biffmsg.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/accessors.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/defaultsNrrd.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/enumsNrrd.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/arraysNrrd.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/methodsNrrd.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/reorder.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/axis.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/simple.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/comment.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/keyvalue.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/endianNrrd.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/parseNrrd.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/gzio.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/read.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/write.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/format.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatNRRD.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encoding.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingRaw.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingAscii.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingHex.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingGzip.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/subset.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingBzip2.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatEPS.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatPNG.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatPNM.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatText.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatVTK.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKNrrdIO"
+		],
+		"name" : "ITKNrrdIO"
+	}
+}

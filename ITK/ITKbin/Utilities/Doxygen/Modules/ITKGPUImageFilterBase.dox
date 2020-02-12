@@ -1,0 +1,20 @@
+/**
+ \defgroup ITKGPUImageFilterBase Module ITKGPUImageFilterBase 
+ This module contains GPU implementations of the base
+classes that support image filters. For the most part, these are classes
+that developers will use to create new image filters (and that are the
+base classes of existing image filters). You will find here: box filters,
+recursive separable filters and the base classes for neighborhood filters. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKGPUCommon 
+ \li \ref ITKImageFilterBase 
+ \dot 
+ graph "ITKGPUImageFilterBase" { 
+ "ITKGPUImageFilterBase" -- "ITKCommon"; 
+ "ITKGPUImageFilterBase" -- "ITKGPUCommon"; 
+ "ITKGPUImageFilterBase" -- "ITKImageFilterBase"; 
+ } 
+ \enddot 
+ */
+

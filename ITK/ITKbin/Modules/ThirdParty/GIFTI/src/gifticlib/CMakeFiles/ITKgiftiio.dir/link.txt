@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../lib/libITKgiftiio-4.13.a  CMakeFiles/ITKgiftiio.dir/gifti_io.c.o CMakeFiles/ITKgiftiio.dir/gifti_xml.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../lib/libITKgiftiio-4.13.a

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKMesh-4.13.a  CMakeFiles/ITKMesh.dir/itkMeshRegion.cxx.o CMakeFiles/ITKMesh.dir/itkSimplexMeshGeometry.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKMesh-4.13.a

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../../../lib/libitkgdcmcharls-4.13.a  CMakeFiles/gdcmcharls.dir/header.cpp.o CMakeFiles/gdcmcharls.dir/interface.cpp.o CMakeFiles/gdcmcharls.dir/jpegls.cpp.o CMakeFiles/gdcmcharls.dir/jpegmarkersegment.cpp.o CMakeFiles/gdcmcharls.dir/jpegstreamwriter.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../../../lib/libitkgdcmcharls-4.13.a

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOTransformInsightLegacy-4.13.a  CMakeFiles/ITKIOTransformInsightLegacy.dir/itkTxtTransformIO.cxx.o CMakeFiles/ITKIOTransformInsightLegacy.dir/itkTxtTransformIOFactory.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOTransformInsightLegacy-4.13.a

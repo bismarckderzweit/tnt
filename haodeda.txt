@@ -1,0 +1,411 @@
+import numpy as np
+import subprocess
+import os
+import shap
+from multiprocessing import Pool
+import time
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('set_index', type=int, nargs='+')
+args = parser.parse_args()
+
+homepath =  'shap/MQ2008/Fold1/'
+train_path = homepath + 'train.txt'
+test_path =  homepath + 'test.txt'
+model_dest = 'model/MART_model.txt'
+k = 10 # k: shap k, we select the top kexample to do analysis
+
+
+def extractYquery(split):
+    y_query = ''
+    y_query += (split[0] + ' ' + split[1] + ' ')
+    return y_query
+
+
+def extractQuery(split):
+    Query = ''
+    for i in range(48, 57):
+        Query += (split[i] + ' ')
+    return Query
+
+
+def extractFeatures(split):
+    features = []
+    for i in range(2, 48):
+        features.append(float(split[i].split(':')[1]))
+    return features
+
+
+def get_microsoft_data(file_path):
+    with open(file_path, 'r') as fp:
+        X_train = []
+        y_query = []
+        Query = []
+        for data in fp:
+            split = data.split()
+            y_query.append(extractYquery(split))
+            Query.append(extractQuery(split))
+            X_train.append(extractFeatures(split))
+    return X_train, y_query, Query
+
+
+X_train, y_query_train, Query_train = get_microsoft_data(train_path)
+X_train = np.array(X_train)
+X_test, y_query_test, Query_test = get_microsoft_data(test_path)
+X_test = np.array(X_test)
+train_len = X_train.shape[0]
+
+
+# rewrite a txt file for subprocessing
+def rewrite(X, y_query, Query, test_data):
+    with open(test_data, 'w') as f:
+        for i in range(len(X)):
+            line = ""
+            line += y_query[(i % len(y_query))]
+            for j in range(len(X[i])):
+                line += ((str(j + 1)) + ":" + str(X[i][j]) + " ")
+            line += Query[(i % len(Query))] + "\n"
+            f.write(line)
+
+
+def evaluate():
+    args = ['java', '-jar', 'RankLib-2.12.jar', '-load', 'model/MART_model.txt', '-test',
+            'temp_data/restore_shapk_{}.txt'.format(tmp_test_y_query[0].split(':')[-1].split()[0]),
+            '-metric2T', 'NDCG@10', '-gmax', '3']
+    process = subprocess.check_output(args, stderr=subprocess.STDOUT)
+    metric = ((str(process, 'utf-8').splitlines())[-1]).split(' ')[-1]
+    # result = "NDCG@10 is {}".format(metric)
+    return metric
+
+
+# separate the test set
+y_query_test = np.array(y_query_test)
+queryname = (y_query_test[0]).split()[1]
+test_data = []
+test_y_query = []
+test_Query = []
+q_d_len = []
+j = 0
+for i in range(X_test.shape[0]):
+    if (y_query_test[i]).split()[1] != queryname:
+        test_data.append(X_test[j:i])
+        test_y_query.append(y_query_test[j:i])
+        test_Query.append(Query_test[j:i])
+        queryname = (y_query_test[i]).split()[1]
+        q_d_len.append(i - j)
+        j = i
+
+
+def score(X):
+    if X.shape[0] == background_datasize :
+        temp_path = 'temp_data/'
+        tmp_dest = temp_path + 'tmp_shapk.txt'
+        tmp_read = temp_path + 'tread_shapk.txt'
+        test_data = temp_path + 'restore_shapk.txt'
+        rewrite(X, y_query_train, Query_train, test_data)
+
+    else:
+        temp_path = 'temp_data/'
+        tmp_dest = temp_path + 'tmp_shapk_{}.txt'.format(tmp_test_y_query[0].split(':')[-1].split()[0])
+        tmp_read = temp_path + 'tread_shapk_{}.txt'.format(tmp_test_y_query[0].split(':')[-1].split()[0])
+        test_data = temp_path + 'restore_shapk_{}.txt'.format(tmp_test_y_query[0].split(':')[-1].split()[0])
+        rewrite(X, tmp_test_y_query, tmp_test_Query,test_data)
+
+    def getscore(test_line):
+        with open(tmp_read, 'w') as c:
+            c.write(test_line)
+        args = ['java', '-jar', 'RankLib-2.12.jar', '-rank', tmp_read, '-load', model_dest,
+                '-indri', tmp_dest]
+        process = subprocess.check_output(args, stderr=subprocess.STDOUT)
+
+    def writescore(A):
+        with open(tmp_dest, 'r') as a:
+            temp = a.read()
+            split = temp.split()
+            A.append(float(split[-2]))
+        return A
+
+    with open(test_data, 'r') as f:
+        A = []
+        for line in f:
+            getscore(line)
+            A = writescore(A)
+        A  = np.array(A)
+    return A
+
+
+# ramdomly get background data
+def rand_row(array, dim_needed):
+    row_total = array.shape[0]
+    row_sequence = np.arange(row_total)
+    np.random.shuffle(row_sequence)
+    return array[row_sequence[0:dim_needed], :]
+
+
+"""
+def get_rankedduculist(scores):
+    duculist = np.array([i for i in range(q_d_len[query_index])]).reshape(-1, 1)
+    doculist_score = np.append(duculist,scores,axis=1)
+    rankedduculist  = (doculist_score[(-doculist_score[:,-1]).argsort()])[:, 0]
+    return rankedduculist
+"""
+
+# creat a explainer
+background_datasize = 35
+for i in range(len(q_d_len)+1):
+    if background_datasize in q_d_len:
+        background_datasize += 1
+    else:
+        break
+X_train = rand_row(X_train, background_datasize)
+explainer = shap.KernelExplainer(score, X_train)
+
+
+def get_set_cover(shap_values):
+    shap_values = np.array([shap_values])
+    sumvalue = np.sum(shap_values, axis=0)
+    top_k = 5 # we select the 5_top important features
+    top_k_idx =((-sumvalue).argsort())[0:top_k]
+    return top_k_idx
+
+# separate the test data into 5 set
+x = np.arange(len(test_data))
+y = list(np.array_split(x, 5, axis=0))
+
+
+# get scores of the samples of this query and rank them according to the scores
+def loop_query(query_index):
+    global tmp_test_data
+    global tmp_test_y_query
+    global tmp_test_Query
+    tmp_test_data = test_data[query_index]
+    tmp_test_y_query = test_y_query[query_index]
+    tmp_test_Query = test_Query[query_index]
+    scores = score(tmp_test_data).reshape(-1,1)
+    test_data_score = np.append(tmp_test_data,scores,axis=1)
+    ranked_test_data = (test_data_score[(-test_data_score[:, -1]).argsort()])[:, :-1]
+
+# ranklist before changing some features
+    #rankedduculist1 = get_rankedduculist(scores)
+    NDCG_before =evaluate()
+    start = time.time()
+    query1_shap_values = explainer.shap_values(ranked_test_data[:k], nsamples=2)
+    end = time.time()
+    running_time = end - start
+    print('time cost : %.5f sec' % running_time)
+    top_k_idx = get_set_cover(query1_shap_values)
+    features_to_change = tmp_test_data
+    features_to_change[:, top_k_idx] = 0
+    scores2 = score(features_to_change).reshape(-1, 1)
+    #rankedduculist2 = get_rankedduculist(scores2)
+    NDCG_after = evaluate()
+    delta_NDCG = float(NDCG_before) -  float(NDCG_after)
+    NDCG_file_name = 'NDCGdata/'+'SHAP{}_'.format(k)  + model_dest.split("_")[0].split("/")[-1] + '.txt'
+    delDir = "temp_data/"
+    os.remove(os.path.join(delDir, 'restore_shapk_{}.txt'.format(tmp_test_y_query[0].split(':')[-1].split()[0])))
+    os.remove(os.path.join(delDir, 'tmp_shapk_{}.txt'.format(tmp_test_y_query[0].split(':')[-1].split()[0])))
+    os.remove(os.path.join(delDir, 'tread_shapk_{}.txt'.format(tmp_test_y_query[0].split(':')[-1].split()[0])))
+    print("query{} has been finished".format(tmp_test_y_query[0].split(':')[-1].split()[0]))
+    with open(NDCG_file_name,'a') as NDCG_FILE:
+        NDCG_line = 'NDCG@10'+'  '+ tmp_test_y_query[0].split(':')[-1]+'  '+'delta_NDCG ='+'  '+str(delta_NDCG) + "\n"
+        NDCG_FILE.write(NDCG_line)
+
+def run_loop(set_index):
+    for query_index in y[set_index]:
+        loop_query(query_index)
+
+run_loop(args.set_index)
+
+
+
+
+
+"""
+with Pool(3) as p:
+    print(p.map(loop_query, [query_index for query_index in range(len(test_data))]))
+
+# reranking the NDCG file
+A = ''.join(sorted(open('NDCGdata/'+'SHAP{}_'.format(k)  + model_dest.split("_")[0].split("/")[-1] + '.txt'), key=lambda s: s.split()[1], reverse=0))
+with open('NDCGdata/'+'SHAP{}_'.format(k)  + model_dest.split("_")[0].split("/")[-1] + '.txt','w') as f:
+    f.write(A)
+"""
+
+
+
+
+
+
+
+ wenziyuchuli
+import re
+import string
+from nltk.stem import SnowballStemmer
+from nltk.corpus import stopwords as sw
+from nltk.tokenize import word_tokenize
+
+
+class Preprocessor(object):
+
+    def __init__(self, language='german'):
+        self.language = language
+        self.stemmer = SnowballStemmer(language=self.language)
+        self.stopwords = sw.words(self.language)
+
+    # TODO: figure out what happens to "_num"
+
+    def preprocess(self, sentence: str, remove_whitespace: bool = False) -> list:
+        """
+        Preprocesses a given string
+        Steps include: Tokenization, Whitespace Removal, Stemming, Punctuation and Digit Removal
+        :param sentence:
+        :param remove_whitespace:
+        :return: text
+        """
+        # remove whitespaces if true
+        if remove_whitespace:
+            text = self.remove_whitespace(sentence)
+        else:
+            text = sentence
+
+        # precondition - whitespaces were removed with
+        tokens = word_tokenize(text, language=self.language)
+
+        # remove punctuation
+        tokens = list(map(self.remove_punctuation, tokens))
+
+        # remove digits
+        digit_in_token = [len(re.findall('\d', ' '.join(t))) > 0 for t in tokens]
+
+        clean_tokens = list()
+        for token, contains_digits in zip(tokens, digit_in_token):
+            if not contains_digits:
+                # stem and append the token to the clean list
+                clean_tokens.append(self.stemmer.stem(token))
+                continue
+            # remove the digits, stem the word and append _num to the token
+            token = self.stemmer.stem(re.sub(pattern='\d', repl='', string=token)) + '_num'
+            clean_tokens.append(token)
+
+        # remove words with lengths of 1 and stopwords!!!
+        clean_tokens = list(filter(lambda x: len(x) > 1 and x not in self.stopwords, clean_tokens))
+
+        return clean_tokens
+
+    def simple_preprocess(self, text: str) -> str:
+        """
+        Removes punctuation and stopwords from a given string by splitting it at first.
+        Afterwards joins it back to a string.
+        :param text:
+        :return: text
+        """
+        text = text.split()
+        # filter stopwords and punctuation
+        text = [t for t in text if t.lower() not in self.stopwords and t not in string.punctuation]
+        # join back to entire sentences
+        text = ' '.join(text)
+        return text
+
+    def remove_punctuation(self, token: str) -> str:
+        return token.translate(str.maketrans('', '', string.punctuation))
+
+    def remove_whitespace(self, sentence: str) -> str:
+        return ' '.join(sentence.split())  # remove all whitespaces (inkl. \t\n\r). Nachteil - Sätze, die mit \n enden
+
+    def set_stopwords(self, stopwords):
+        self.stopwords = stopwords
+
+
+textxianglianghua
+
+from gensim.models.doc2vec import Doc2Vec, TaggedDocument
+import scipy as s
+import pandas
+
+from src.ai.text_preprocessing import Preprocessor
+from src.ai.pdf_2_text import PreprocessorResumes
+from src.db.database_manager import DatabaseManager
+from src.db.db_client import MongoCon
+from paths import Paths
+from config import config
+
+
+class Vectorizer(object):
+
+    def __init__(self):
+        self.model_name = str(Paths.models_path / 'vectorizer.model')
+        self.prep = Preprocessor()
+        self.pdfconv = PreprocessorResumes()
+
+    # Generates a doc2vec model
+    def create_vectorizer(self, text_dataframe, target_column: str):
+        # Initialize variables
+        text_dataframe.index = range(len(text_dataframe))
+        output_clean = pandas.Series(s.zeros(len(text_dataframe)))
+
+        # Clean data with Preprocessor
+        for i in range(len(text_dataframe)):
+            # print(i, '/', len(text_dataframe))
+            text_input = str(text_dataframe[target_column][i])
+            output_clean[i] = self.prep.preprocess(sentence=text_input)
+
+        # Create Doc2Vec model
+        documents = [TaggedDocument(doc, [i]) for i, doc in enumerate(output_clean)]
+        model = Doc2Vec(documents, vector_size=100, window=2, min_count=1, workers=4, epochs=40)
+        model.train(documents, total_examples=model.corpus_count, epochs=model.epochs)
+        model.save(self.model_name)
+
+        print('Doc2Vec generated')
+
+    def get_vectors(self, name_pdf=None):
+
+        # If no pdf name given, then go to database and get jobs
+        if name_pdf is None:
+            text_df = self.get_from_db()
+            text_dataframe = pandas.DataFrame(columns=['_id', 'text'])
+            text_dataframe['_id'] = text_df['_id']
+            text_dataframe['text'] = text_df['job_title'] + ' ' + text_df['profile'] + \
+                                     ' ' + text_df['service_line'] + ' ' + text_df['task']
+
+        # If pdf name given then transform to text
+        else:
+            text_dataframe = pandas.DataFrame(columns=['_id', 'text'], index=[0])
+            text_dataframe['_id'][0] = name_pdf
+            text_dataframe['text'][0] = self.pdfconv.convert(name_pdf)
+
+        try:
+            # Load Model
+            model = Doc2Vec.load(self.model_name)
+
+            # Initialize variables
+            text_dataframe.index = range(len(text_dataframe))
+            output_clean = pandas.DataFrame(columns=range(100))
+
+            # Clean data and infer vectors
+            for i in range(len(text_dataframe)):
+                # print(i, '/', len(text_dataframe))
+                text_input = self.prep.preprocess(sentence=str(text_dataframe['text'][i]))
+                vect = pandas.DataFrame(model.infer_vector(text_input)).transpose()
+                output_clean = output_clean.append(vect, ignore_index=True)
+
+            output_clean['_id'] = text_dataframe['_id']
+
+        except FileNotFoundError:
+            print("Doc2Vec model not found at path, creating new model")
+            self.create_vectorizer(text_dataframe, target_column=['text'])
+
+        return output_clean
+
+    def get_from_db(self):
+        mydb = MongoCon.get_connection()
+        dbm = DatabaseManager(mydb)
+
+        jobs = dbm.find_all(config['db']['db_name'], config['db']['collections']['job_offers'])
+        output = []
+        for item in jobs:
+            output.append(item)
+        output = pandas.DataFrame(output)
+
+        return output
+
+

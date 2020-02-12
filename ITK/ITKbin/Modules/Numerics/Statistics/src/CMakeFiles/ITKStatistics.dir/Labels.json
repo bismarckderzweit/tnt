@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkProbabilityDistribution.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkDenseFrequencyContainer2.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkSparseFrequencyContainer2.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkChiSquareDistribution.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkGaussianDistribution.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkTDistribution.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkNormalVariateGenerator.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkDecisionRule.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkMaximumDecisionRule.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkMaximumRatioDecisionRule.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkMinimumDecisionRule.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKStatistics"
+		],
+		"name" : "ITKStatistics"
+	}
+}

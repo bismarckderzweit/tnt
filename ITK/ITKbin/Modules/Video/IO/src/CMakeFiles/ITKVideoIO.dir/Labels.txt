@@ -1,0 +1,7 @@
+# Target labels
+ ITKVideoIO
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Video/IO/src/itkFileListVideoIO.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Video/IO/src/itkFileListVideoIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Video/IO/src/itkVideoIOBase.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Video/IO/src/itkVideoIOFactory.cxx

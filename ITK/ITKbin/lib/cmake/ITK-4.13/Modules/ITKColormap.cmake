@@ -1,0 +1,13 @@
+set(ITKColormap_LOADED 1)
+set(ITKColormap_ENABLE_SHARED "0")
+set(ITKColormap_DEPENDS "ITKCommon")
+set(ITKColormap_PUBLIC_DEPENDS "")
+set(ITKColormap_TRANSITIVE_DEPENDS "ITKCommon")
+set(ITKColormap_PRIVATE_DEPENDS "")
+set(ITKColormap_LIBRARIES "ITKCommon")
+set(ITKColormap_INCLUDE_DIRS "/Users/kit/Documents/ITK/InsightToolKit/Modules/Filtering/Colormap/include")
+set(ITKColormap_LIBRARY_DIRS "")
+set(ITKColormap_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKColormap_TARGETS_FILE "")
+set(ITKColormap_FACTORY_NAMES "")
+

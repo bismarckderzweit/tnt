@@ -1,0 +1,13 @@
+/**
+ \defgroup ITKIOMRC Module ITKIOMRC 
+ This module contains classes for reading and writing image
+files in the MRC file format. https://en.wikipedia.org/wiki/MRC_(file_format)  
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \dot 
+ graph "ITKIOMRC" { 
+ "ITKIOMRC" -- "ITKIOImageBase"; 
+ } 
+ \enddot 
+ */
+

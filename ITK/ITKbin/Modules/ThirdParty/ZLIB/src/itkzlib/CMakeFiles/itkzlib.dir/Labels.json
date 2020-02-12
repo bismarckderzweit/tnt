@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/adler32.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/compress.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/crc32.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/deflate.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/gzio.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/inffast.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/inflate.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/inftrees.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/trees.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/uncompr.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/ZLIB/src/itkzlib/zutil.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKZLIB"
+		],
+		"name" : "itkzlib"
+	}
+}

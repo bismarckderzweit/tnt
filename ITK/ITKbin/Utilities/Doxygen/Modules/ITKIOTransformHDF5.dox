@@ -1,0 +1,15 @@
+/**
+ \defgroup ITKIOTransformHDF5 Module ITKIOTransformHDF5 
+ This module contains the classes for the input and output
+of itkTransform object in HDF5 format. 
+ \par Dependencies:
+ \li \ref ITKHDF5 
+ \li \ref ITKIOTransformBase 
+ \dot 
+ graph "ITKIOTransformHDF5" { 
+ "ITKIOTransformHDF5" -- "ITKHDF5"; 
+ "ITKIOTransformHDF5" -- "ITKIOTransformBase"; 
+ } 
+ \enddot 
+ */
+

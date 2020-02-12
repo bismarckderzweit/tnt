@@ -1,0 +1,6 @@
+# Target labels
+ ITKExpat
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Expat/src/expat/xmlparse.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Expat/src/expat/xmltok.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/Expat/src/expat/xmlrole.c

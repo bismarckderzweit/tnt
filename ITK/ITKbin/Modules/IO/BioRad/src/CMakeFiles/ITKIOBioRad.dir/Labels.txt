@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOBioRad
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/BioRad/src/itkBioRadImageIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/BioRad/src/itkBioRadImageIO.cxx

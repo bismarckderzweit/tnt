@@ -1,0 +1,19 @@
+/**
+ \defgroup ITKIOMesh Module ITKIOMesh 
+ This module contains classes for reading and writing
+Meshes as opposed to general images. 
+ \par Dependencies:
+ \li \ref ITKDoubleConversion 
+ \li \ref ITKGIFTI 
+ \li \ref ITKIOImageBase 
+ \li \ref ITKMesh 
+ \dot 
+ graph "ITKIOMesh" { 
+ "ITKIOMesh" -- "ITKDoubleConversion"; 
+ "ITKIOMesh" -- "ITKGIFTI"; 
+ "ITKIOMesh" -- "ITKIOImageBase"; 
+ "ITKIOMesh" -- "ITKMesh"; 
+ } 
+ \enddot 
+ */
+

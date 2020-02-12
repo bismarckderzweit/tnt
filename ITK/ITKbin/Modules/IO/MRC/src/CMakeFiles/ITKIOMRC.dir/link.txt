@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOMRC-4.13.a  CMakeFiles/ITKIOMRC.dir/itkMRCHeaderObject.cxx.o CMakeFiles/ITKIOMRC.dir/itkMRCImageIO.cxx.o CMakeFiles/ITKIOMRC.dir/itkMRCImageIOFactory.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOMRC-4.13.a

@@ -1,0 +1,16 @@
+/**
+ \defgroup ITKIOGDCM Module ITKIOGDCM 
+ This module contains ITK ImageIO classes for the <a
+href="http://sourceforge.net/projects/gdcm/">Grassroots DICOM (GDCM)</a> based
+readers and writers of the medical imaging DICOM standard. 
+ \par Dependencies:
+ \li \ref ITKGDCM 
+ \li \ref ITKIOImageBase 
+ \dot 
+ graph "ITKIOGDCM" { 
+ "ITKIOGDCM" -- "ITKGDCM"; 
+ "ITKIOGDCM" -- "ITKIOImageBase"; 
+ } 
+ \enddot 
+ */
+

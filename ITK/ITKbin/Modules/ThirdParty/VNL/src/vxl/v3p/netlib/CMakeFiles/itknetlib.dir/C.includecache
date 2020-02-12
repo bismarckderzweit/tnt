@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/v3p/netlib/triangle.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+sys/time.h
+-
+float.h
+-
+fpu_control.h
+-
+triangle.h
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/v3p/netlib/triangle.h
+
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/v3p/netlib/triangle.h
+

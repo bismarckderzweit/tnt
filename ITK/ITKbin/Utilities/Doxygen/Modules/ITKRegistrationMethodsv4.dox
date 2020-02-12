@@ -1,0 +1,14 @@
+/**
+ \defgroup ITKRegistrationMethodsv4 Module ITKRegistrationMethodsv4 
+ This module contains typical examples of regitration methods based upon the high dimensional metrics and high dimensional optimizers. 
+ \par Dependencies:
+ \li \ref ITKMetricsv4 
+ \li \ref ITKOptimizersv4 
+ \dot 
+ graph "ITKRegistrationMethodsv4" { 
+ "ITKRegistrationMethodsv4" -- "ITKMetricsv4"; 
+ "ITKRegistrationMethodsv4" -- "ITKOptimizersv4"; 
+ } 
+ \enddot 
+ */
+

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOGIPL-4.13.a  CMakeFiles/ITKIOGIPL.dir/itkGiplImageIOFactory.cxx.o CMakeFiles/ITKIOGIPL.dir/itkGiplImageIO.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOGIPL-4.13.a

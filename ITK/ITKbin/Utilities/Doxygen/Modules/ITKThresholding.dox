@@ -1,0 +1,17 @@
+/**
+ \defgroup ITKThresholding Module ITKThresholding 
+ This module contains multiple variations of image
+thresholding filters. In addition to the classical binary thresholding, you
+will find here the thresholding filters based on the Otsu criterion, both for
+single and multiple thresholds. 
+ \par Dependencies:
+ \li \ref ITKImageIntensity 
+ \li \ref ITKImageStatistics 
+ \dot 
+ graph "ITKThresholding" { 
+ "ITKThresholding" -- "ITKImageIntensity"; 
+ "ITKThresholding" -- "ITKImageStatistics"; 
+ } 
+ \enddot 
+ */
+

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../lib/libITKDICOMParser-4.13.a  CMakeFiles/ITKDICOMParser.dir/DICOMSource.cxx.o CMakeFiles/ITKDICOMParser.dir/DICOMBuffer.cxx.o CMakeFiles/ITKDICOMParser.dir/DICOMFile.cxx.o CMakeFiles/ITKDICOMParser.dir/DICOMParser.cxx.o CMakeFiles/ITKDICOMParser.dir/DICOMAppHelper.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../lib/libITKDICOMParser-4.13.a

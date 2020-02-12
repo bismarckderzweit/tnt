@@ -1,0 +1,13 @@
+/**
+ \defgroup ITKColormap Module ITKColormap 
+ This module contains filter/functions for converting
+grayscale images to colormapped rgb images. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \dot 
+ graph "ITKColormap" { 
+ "ITKColormap" -- "ITKCommon"; 
+ } 
+ \enddot 
+ */
+

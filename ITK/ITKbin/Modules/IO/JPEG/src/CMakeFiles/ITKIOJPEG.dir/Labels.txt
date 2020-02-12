@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOJPEG
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/JPEG/src/itkJPEGImageIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/JPEG/src/itkJPEGImageIO.cxx

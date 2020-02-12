@@ -1,0 +1,15 @@
+/**
+ \defgroup ITKFiniteDifference Module ITKFiniteDifference 
+ This module contains the base classes needed to implement
+finite differences image filters. They include both sparse and dense finite
+differences. Most of the classes in this module are abstract and therefore are
+not intended to be instantiated by themselves. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \dot 
+ graph "ITKFiniteDifference" { 
+ "ITKFiniteDifference" -- "ITKCommon"; 
+ } 
+ \enddot 
+ */
+

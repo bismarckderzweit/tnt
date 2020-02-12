@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Bridge/VTK/src/itkVTKImageExportBase.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKVTK"
+		],
+		"name" : "ITKVTK"
+	}
+}

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKQuadEdgeMesh-4.13.a  CMakeFiles/ITKQuadEdgeMesh.dir/itkQuadEdge.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKQuadEdgeMesh-4.13.a

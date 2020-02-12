@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOTIFF-4.13.a  CMakeFiles/ITKIOTIFF.dir/itkTIFFImageIO.cxx.o CMakeFiles/ITKIOTIFF.dir/itkTIFFReaderInternal.cxx.o CMakeFiles/ITKIOTIFF.dir/itkTIFFImageIOFactory.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOTIFF-4.13.a

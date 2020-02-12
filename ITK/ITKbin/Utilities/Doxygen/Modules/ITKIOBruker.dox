@@ -1,0 +1,12 @@
+/**
+ \defgroup ITKIOBruker Module ITKIOBruker 
+ This module contains classes that read Bruker image files. 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \dot 
+ graph "ITKIOBruker" { 
+ "ITKIOBruker" -- "ITKIOImageBase"; 
+ } 
+ \enddot 
+ */
+

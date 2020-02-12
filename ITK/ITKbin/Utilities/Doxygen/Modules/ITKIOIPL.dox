@@ -1,0 +1,13 @@
+/**
+ \defgroup ITKIOIPL Module ITKIOIPL 
+ This module contains code common to both the GE and Siemens
+IO modules. 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \dot 
+ graph "ITKIOIPL" { 
+ "ITKIOIPL" -- "ITKIOImageBase"; 
+ } 
+ \enddot 
+ */
+

@@ -1,0 +1,14 @@
+/**
+ \defgroup ITKImageCompose Module ITKImageCompose 
+ This module contains filters that combine several images
+into a single output image. For example, take several input scalar images and
+package them into an output image of multiple components. 
+ \par Dependencies:
+ \li \ref ITKImageFilterBase 
+ \dot 
+ graph "ITKImageCompose" { 
+ "ITKImageCompose" -- "ITKImageFilterBase"; 
+ } 
+ \enddot 
+ */
+

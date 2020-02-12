@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOVTK-4.13.a  CMakeFiles/ITKIOVTK.dir/itkVTKImageIOFactory.cxx.o CMakeFiles/ITKIOVTK.dir/itkVTKImageIO.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOVTK-4.13.a

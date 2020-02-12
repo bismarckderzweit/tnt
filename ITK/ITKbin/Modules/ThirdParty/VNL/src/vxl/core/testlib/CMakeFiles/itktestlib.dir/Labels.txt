@@ -1,0 +1,9 @@
+# Target labels
+ ITKVNL
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_test.h
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_test.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_register.h
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_main.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_root_dir.h
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_root_dir.cxx

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOXML-4.13.a  CMakeFiles/ITKIOXML.dir/itkXMLFile.cxx.o CMakeFiles/ITKIOXML.dir/itkDOMNode.cxx.o CMakeFiles/ITKIOXML.dir/itkDOMNodeXMLReader.cxx.o CMakeFiles/ITKIOXML.dir/itkDOMNodeXMLWriter.cxx.o CMakeFiles/ITKIOXML.dir/itkStringTools.cxx.o CMakeFiles/ITKIOXML.dir/itkFancyString.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOXML-4.13.a

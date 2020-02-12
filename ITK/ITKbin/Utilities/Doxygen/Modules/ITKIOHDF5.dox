@@ -1,0 +1,16 @@
+/**
+ \defgroup ITKIOHDF5 Module ITKIOHDF5 
+ This module contains an ImageIO class for reading and writing
+ITK Images stored in the <a href="http://www.hdfgroup.org/HDF5/">HDF5</a>
+data model and file format. 
+ \par Dependencies:
+ \li \ref ITKHDF5 
+ \li \ref ITKIOImageBase 
+ \dot 
+ graph "ITKIOHDF5" { 
+ "ITKIOHDF5" -- "ITKHDF5"; 
+ "ITKIOHDF5" -- "ITKIOImageBase"; 
+ } 
+ \enddot 
+ */
+

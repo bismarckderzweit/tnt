@@ -1,0 +1,17 @@
+/**
+ \defgroup ITKGPURegistrationCommon Module ITKGPURegistrationCommon 
+ This module contains some common components to support GPU-based
+registrations 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKGPUCommon 
+ \li \ref ITKGPUFiniteDifference 
+ \dot 
+ graph "ITKGPURegistrationCommon" { 
+ "ITKGPURegistrationCommon" -- "ITKCommon"; 
+ "ITKGPURegistrationCommon" -- "ITKGPUCommon"; 
+ "ITKGPURegistrationCommon" -- "ITKGPUFiniteDifference"; 
+ } 
+ \enddot 
+ */
+

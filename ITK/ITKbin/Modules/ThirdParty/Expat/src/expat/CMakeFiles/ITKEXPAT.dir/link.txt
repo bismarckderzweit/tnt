@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../lib/libITKEXPAT-4.13.a  CMakeFiles/ITKEXPAT.dir/xmlparse.c.o CMakeFiles/ITKEXPAT.dir/xmltok.c.o CMakeFiles/ITKEXPAT.dir/xmlrole.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../lib/libITKEXPAT-4.13.a

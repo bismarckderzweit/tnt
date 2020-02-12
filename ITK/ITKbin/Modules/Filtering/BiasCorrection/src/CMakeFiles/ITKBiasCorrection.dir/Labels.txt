@@ -1,0 +1,5 @@
+# Target labels
+ ITKBiasCorrection
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Filtering/BiasCorrection/src/itkCompositeValleyFunction.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Filtering/BiasCorrection/src/itkCacheableScalarFunction.cxx

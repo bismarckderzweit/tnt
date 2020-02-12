@@ -1,0 +1,13 @@
+/**
+ \defgroup ITKIOTransformMatlab Module ITKIOTransformMatlab 
+ This module contains the classes for the input and output
+of itkTransform object in  Matlab format. 
+ \par Dependencies:
+ \li \ref ITKIOTransformBase 
+ \dot 
+ graph "ITKIOTransformMatlab" { 
+ "ITKIOTransformMatlab" -- "ITKIOTransformBase"; 
+ } 
+ \enddot 
+ */
+

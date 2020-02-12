@@ -1,0 +1,23 @@
+/**
+ \defgroup ITKGPUPDEDeformableRegistration Module ITKGPUPDEDeformableRegistration 
+ This module contains the GPU implementation of classes
+for deformable image registration based on intensity differences by solving
+the PDE, optical flow problem.  This includes Thirion's popular "demons"
+algorithm. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKGPUCommon 
+ \li \ref ITKGPUFiniteDifference 
+ \li \ref ITKGPURegistrationCommon 
+ \li \ref ITKPDEDeformableRegistration 
+ \dot 
+ graph "ITKGPUPDEDeformableRegistration" { 
+ "ITKGPUPDEDeformableRegistration" -- "ITKCommon"; 
+ "ITKGPUPDEDeformableRegistration" -- "ITKGPUCommon"; 
+ "ITKGPUPDEDeformableRegistration" -- "ITKGPUFiniteDifference"; 
+ "ITKGPUPDEDeformableRegistration" -- "ITKGPURegistrationCommon"; 
+ "ITKGPUPDEDeformableRegistration" -- "ITKPDEDeformableRegistration"; 
+ } 
+ \enddot 
+ */
+

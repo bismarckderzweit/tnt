@@ -1,0 +1,13 @@
+/**
+ \defgroup ITKEigen Module ITKEigen 
+ This module contains classes related to calculation of
+eigenvectors and eigenvalues. 
+ \par Dependencies:
+ \li \ref ITKImageFilterBase 
+ \dot 
+ graph "ITKEigen" { 
+ "ITKEigen" -- "ITKImageFilterBase"; 
+ } 
+ \enddot 
+ */
+

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKTransformFactory-4.13.a  CMakeFiles/ITKTransformFactory.dir/itkTransformFactoryBase.cxx.o CMakeFiles/ITKTransformFactory.dir/itkTransformFactoryBaseRegisterFloatParameters.cxx.o CMakeFiles/ITKTransformFactory.dir/itkTransformFactoryBaseRegisterDoubleParameters.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKTransformFactory-4.13.a

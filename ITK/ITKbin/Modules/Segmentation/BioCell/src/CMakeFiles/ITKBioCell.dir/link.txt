@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKBioCell-4.13.a  CMakeFiles/ITKBioCell.dir/itkBioGenome.cxx.o CMakeFiles/ITKBioCell.dir/itkBioGene.cxx.o CMakeFiles/ITKBioCell.dir/itkBioGeneNetwork.cxx.o CMakeFiles/ITKBioCell.dir/itkBioCellBase.cxx.o CMakeFiles/ITKBioCell.dir/itkBioCellularAggregateBase.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKBioCell-4.13.a

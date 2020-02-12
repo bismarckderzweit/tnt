@@ -1,0 +1,2116 @@
+Performing C SOURCE FILE Test C_HAS_WARNING-Wno-long-double failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18306/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_18306.dir/build.make CMakeFiles/cmTC_18306.dir/build
+Building C object CMakeFiles/cmTC_18306.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DC_HAS_WARNING-Wno-long-double   -Wno-long-double -o CMakeFiles/cmTC_18306.dir/src.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-long-double'; did you mean '-Wno-long-long'? [-Wunknown-warning-option]
+In file included from <built-in>:331:
+<command line>:1:22: warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define C_HAS_WARNING-Wno-long-double 1
+                     ^
+2 warnings generated.
+Linking C executable cmTC_18306
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18306.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DC_HAS_WARNING-Wno-long-double -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_18306.dir/src.c.o  -o cmTC_18306 
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WARNING-Wno-long-double failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8119/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d8119.dir/build.make CMakeFiles/cmTC_d8119.dir/build
+Building CXX object CMakeFiles/cmTC_d8119.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCXX_HAS_WARNING-Wno-long-double   -Wno-long-double -o CMakeFiles/cmTC_d8119.dir/src.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-long-double'; did you mean '-Wno-long-long'? [-Wunknown-warning-option]
+In file included from <built-in>:342:
+<command line>:1:24: warning: whitespace recommended after macro name
+#define CXX_HAS_WARNING-Wno-long-double 1
+                       ^
+2 warnings generated.
+Linking CXX executable cmTC_d8119
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8119.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCXX_HAS_WARNING-Wno-long-double -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d8119.dir/src.cxx.o  -o cmTC_d8119 
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_HAS_WARNING-Wstrict-null-sentinel failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0629/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b0629.dir/build.make CMakeFiles/cmTC_b0629.dir/build
+Building CXX object CMakeFiles/cmTC_b0629.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCXX_HAS_WARNING-Wstrict-null-sentinel   -Wstrict-null-sentinel -o CMakeFiles/cmTC_b0629.dir/src.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wstrict-null-sentinel' [-Wunknown-warning-option]
+In file included from <built-in>:342:
+<command line>:1:24: warning: whitespace recommended after macro name
+#define CXX_HAS_WARNING-Wstrict-null-sentinel 1
+                       ^
+2 warnings generated.
+Linking CXX executable cmTC_b0629
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0629.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCXX_HAS_WARNING-Wstrict-null-sentinel -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b0629.dir/src.cxx.o  -o cmTC_b0629 
+
+Source file was:
+int main() { return 0;}
+Checking whether C++ compiler has '__int64' failed to compile with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ff7b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8ff7b.dir/build.make CMakeFiles/cmTC_8ff7b.dir/build
+Building CXX object CMakeFiles/cmTC_8ff7b.dir/kwsysPlatformTestsCXX.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DTEST_KWSYS_CXX_HAS___INT64  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIE   -o CMakeFiles/cmTC_8ff7b.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:24:1: error: unknown type name '__int64'
+__int64 f(__int64 n)
+^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:24:11: error: unknown type name '__int64'
+__int64 f(__int64 n)
+          ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:30:3: error: unknown type name '__int64'
+  __int64 n = 0;
+  ^
+3 errors generated.
+make[1]: *** [CMakeFiles/cmTC_8ff7b.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_8ff7b/fast] Error 2
+
+
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbd84/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bbd84.dir/build.make CMakeFiles/cmTC_bbd84.dir/build
+Building CXX object CMakeFiles/cmTC_bbd84.dir/kwsysPlatformTestsCXX.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIE   -o CMakeFiles/cmTC_bbd84.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:196:13: error: use of undeclared identifier 'environ'
+  char* e = environ[0];
+            ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_bbd84.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_bbd84/fast] Error 2
+
+
+Checking whether CXX compiler struct stat has st_mtim member failed to compile with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfd07/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bfd07.dir/build.make CMakeFiles/cmTC_bfd07.dir/build
+Building CXX object CMakeFiles/cmTC_bfd07.dir/kwsysPlatformTestsCXX.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIM  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIE   -o CMakeFiles/cmTC_bfd07.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:43:15: error: no member named 'st_mtim' in 'stat'
+  (void)stat1.st_mtim.tv_sec;
+        ~~~~~ ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:44:15: error: no member named 'st_mtim' in 'stat'
+  (void)stat1.st_mtim.tv_nsec;
+        ~~~~~ ^
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_bfd07.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_bfd07/fast] Error 2
+
+
+Checking whether CXX compiler has rlimit64 failed to compile with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e098f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e098f.dir/build.make CMakeFiles/cmTC_e098f.dir/build
+Building CXX object CMakeFiles/cmTC_e098f.dir/kwsysPlatformTestsCXX.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DKWSYS_HAS_LFS=1 -DTEST_KWSYS_CXX_HAS_RLIMIT64  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIE   -o CMakeFiles/cmTC_e098f.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:224:19: error: variable has incomplete type 'struct rlimit64'
+  struct rlimit64 rlim;
+                  ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:224:10: note: forward declaration of 'rlimit64'
+  struct rlimit64 rlim;
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e098f.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_e098f/fast] Error 2
+
+
+Checking whether CXX compiler has _atoi64 failed to compile with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1759/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d1759.dir/build.make CMakeFiles/cmTC_d1759.dir/build
+Building CXX object CMakeFiles/cmTC_d1759.dir/kwsysPlatformTestsCXX.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DTEST_KWSYS_CXX_HAS__ATOI64  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIE   -o CMakeFiles/cmTC_d1759.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:252:27: error: use of undeclared identifier '_atoi64'
+  return static_cast<int>(_atoi64(str));
+                          ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d1759.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_d1759/fast] Error 2
+
+
+Checking whether <ext/stdio_filebuf.h> is available failed to compile with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86a37/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_86a37.dir/build.make CMakeFiles/cmTC_86a37.dir/build
+Building CXX object CMakeFiles/cmTC_86a37.dir/kwsysPlatformTestsCXX.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DTEST_KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIE   -o CMakeFiles/cmTC_86a37.dir/kwsysPlatformTestsCXX.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:372:10: fatal error: 'ext/stdio_filebuf.h' file not found
+#include <ext/stdio_filebuf.h>
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_86a37.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make: *** [cmTC_86a37/fast] Error 2
+
+
+Performing Test VCL_OVERLOAD_CAST failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7693/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f7693.dir/build.make CMakeFiles/cmTC_f7693.dir/build
+Building CXX object CMakeFiles/cmTC_f7693.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DVCL_OVERLOAD_CAST  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_f7693.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:312:41: error: use of undeclared identifier 'data_fixed'; did you mean 'data_fixedn'?
+  vnl_vector_fixed() : vnl_vector<T>(n, data_fixed) {}
+                                        ^~~~~~~~~~
+                                        data_fixedn
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:311:5: note: 'data_fixedn' declared here
+  T data_fixedn;
+    ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f7693.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_f7693/fast] Error 2
+
+Performing Test VCL_NULL_TMPL_ARGS failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c53aa/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c53aa.dir/build.make CMakeFiles/cmTC_c53aa.dir/build
+Building CXX object CMakeFiles/cmTC_c53aa.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DVCL_NULL_TMPL_ARGS  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_c53aa.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:365:7: error: 'data' is a private member of 'victor<double>'
+    u.data[0] * v.data[0] +
+      ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:370:17: note: in instantiation of function template specialization 'dot<double>' requested here
+template double dot(victor<double> const &, victor<double> const &);
+                ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:359:5: note: declared private here
+  T data[3];
+    ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:365:19: error: 'data' is a private member of 'victor<double>'
+    u.data[0] * v.data[0] +
+                  ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:359:5: note: declared private here
+  T data[3];
+    ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:366:7: error: 'data' is a private member of 'victor<double>'
+    u.data[1] * v.data[1] +
+      ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:359:5: note: declared private here
+  T data[3];
+    ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:366:19: error: 'data' is a private member of 'victor<double>'
+    u.data[1] * v.data[1] +
+                  ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:359:5: note: declared private here
+  T data[3];
+    ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:367:7: error: 'data' is a private member of 'victor<double>'
+    u.data[2] * v.data[2];
+      ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:359:5: note: declared private here
+  T data[3];
+    ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:367:19: error: 'data' is a private member of 'victor<double>'
+    u.data[2] * v.data[2];
+                  ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:359:5: note: declared private here
+  T data[3];
+    ^
+6 errors generated.
+make[1]: *** [CMakeFiles/cmTC_c53aa.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_c53aa/fast] Error 2
+
+Performing Try-Run Test VCL_HAS_TEMPLATE_SYMBOLS failed to compile with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8d0a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e8d0a.dir/build.make CMakeFiles/cmTC_e8d0a.dir/build
+Building CXX object CMakeFiles/cmTC_e8d0a.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_HAS_TEMPLATE_SYMBOLS -fPIE   -o CMakeFiles/cmTC_e8d0a.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_e8d0a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8d0a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_HAS_TEMPLATE_SYMBOLS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e8d0a.dir/vxl_platform_tests.cxx.o  -o cmTC_e8d0a 
+Undefined symbols for architecture x86_64:
+  "void function<double>(double*, int)", referenced from:
+      caller() in vxl_platform_tests.cxx.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_e8d0a] Error 1
+make: *** [cmTC_e8d0a/fast] Error 2
+
+Performing Test VCL_NEEDS_NAMESPACE_STD failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba4b7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ba4b7.dir/build.make CMakeFiles/cmTC_ba4b7.dir/build
+Building CXX object CMakeFiles/cmTC_ba4b7.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DVCL_NEEDS_NAMESPACE_STD  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_ba4b7.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:723:3: error: no template named 'vector'; did you mean 'std::vector'?
+  vector<double> flaz; // correct should be:  std::vector<double>
+  ^~~~~~
+  std::vector
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:450:28: note: 'std::vector' declared here
+class _LIBCPP_TEMPLATE_VIS vector
+                           ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ba4b7.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_ba4b7/fast] Error 2
+
+Performing Test VCL_HAS_SLICED_DESTRUCTOR_BUG succeeded with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b718/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6b718.dir/build.make CMakeFiles/cmTC_6b718.dir/build
+Building CXX object CMakeFiles/cmTC_6b718.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_HAS_SLICED_DESTRUCTOR_BUG -fPIE   -o CMakeFiles/cmTC_6b718.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_6b718
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b718.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_HAS_SLICED_DESTRUCTOR_BUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6b718.dir/vxl_platform_tests.cxx.o  -o cmTC_6b718 
+
+Performing Test VCL_HAS_WORKING_STRINGSTREAM succeeded with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52b4a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_52b4a.dir/build.make CMakeFiles/cmTC_52b4a.dir/build
+Building CXX object CMakeFiles/cmTC_52b4a.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_HAS_WORKING_STRINGSTREAM -fPIE   -o CMakeFiles/cmTC_52b4a.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_52b4a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52b4a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_HAS_WORKING_STRINGSTREAM -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_52b4a.dir/vxl_platform_tests.cxx.o  -o cmTC_52b4a 
+
+Performing Test VCL_HAS_LFS succeeded with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abebb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_abebb.dir/build.make CMakeFiles/cmTC_abebb.dir/build
+Building CXX object CMakeFiles/cmTC_abebb.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_HAS_LFS -fPIE   -o CMakeFiles/cmTC_abebb.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_abebb
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abebb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_HAS_LFS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_abebb.dir/vxl_platform_tests.cxx.o  -o cmTC_abebb 
+
+Performing Test VXL_HAS_DBGHELP_H failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c85bb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c85bb.dir/build.make CMakeFiles/cmTC_c85bb.dir/build
+Building CXX object CMakeFiles/cmTC_c85bb.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DVXL_HAS_DBGHELP_H  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_c85bb.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1016:10: fatal error: 'Windows.h' file not found
+#include <Windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c85bb.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_c85bb/fast] Error 2
+
+Determining if the include file windows.h exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93e31/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_93e31.dir/build.make CMakeFiles/cmTC_93e31.dir/build
+Building CXX object CMakeFiles/cmTC_93e31.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_93e31.dir/CheckIncludeFile.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_93e31.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_93e31/fast] Error 2
+
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c55e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9c55e.dir/build.make CMakeFiles/cmTC_9c55e.dir/build
+Building C object CMakeFiles/cmTC_9c55e.dir/VCL_HAS_MALLOC_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_9c55e.dir/VCL_HAS_MALLOC_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/VCL_HAS_MALLOC_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/VCL_HAS_MALLOC_H.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_9c55e.dir/VCL_HAS_MALLOC_H.c.o] Error 1
+make: *** [cmTC_9c55e/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file tr1/memory exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c641/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3c641.dir/build.make CMakeFiles/cmTC_3c641.dir/build
+Building CXX object CMakeFiles/cmTC_3c641.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_3c641.dir/CheckIncludeFile.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/memory' file not found
+#include <tr1/memory>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3c641.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_3c641/fast] Error 2
+
+
+Determining if the std::tr1::shared_ptr<void> exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79af4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_79af4.dir/build.make CMakeFiles/cmTC_79af4.dir/build
+Building CXX object CMakeFiles/cmTC_79af4.dir/CheckTypeExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_79af4.dir/CheckTypeExists.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeTmp/CheckTypeExists.cxx
+/Users/kit/Documents/ITK/ITKbin/CMakeTmp/CheckTypeExists.cxx:4:30: error: no member named 'tr1' in namespace 'std'
+void cmakeRequireSymbol(std::tr1::shared_ptr<void> dummy){(void)dummy;}
+                        ~~~~~^
+/Users/kit/Documents/ITK/ITKbin/CMakeTmp/CheckTypeExists.cxx:4:6: error: variable has incomplete type 'void'
+void cmakeRequireSymbol(std::tr1::shared_ptr<void> dummy){(void)dummy;}
+     ^
+/Users/kit/Documents/ITK/ITKbin/CMakeTmp/CheckTypeExists.cxx:4:50: error: expected '(' for function-style cast or type construction
+void cmakeRequireSymbol(std::tr1::shared_ptr<void> dummy){(void)dummy;}
+                                             ~~~~^
+/Users/kit/Documents/ITK/ITKbin/CMakeTmp/CheckTypeExists.cxx:4:52: error: use of undeclared identifier 'dummy'
+void cmakeRequireSymbol(std::tr1::shared_ptr<void> dummy){(void)dummy;}
+                                                   ^
+/Users/kit/Documents/ITK/ITKbin/CMakeTmp/CheckTypeExists.cxx:4:58: error: expected ';' after top level declarator
+void cmakeRequireSymbol(std::tr1::shared_ptr<void> dummy){(void)dummy;}
+                                                         ^
+                                                         ;
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_79af4.dir/CheckTypeExists.cxx.o] Error 1
+make: *** [cmTC_79af4/fast] Error 2
+
+File /Users/kit/Documents/ITK/ITKbin/CMakeTmp/CheckTypeExists.c:
+/* */
+#include <memory>
+
+void cmakeRequireSymbol(std::tr1::shared_ptr<void> dummy){(void)dummy;}
+int main()
+{return 0;
+}
+
+Determining if the std::tr1::shared_ptr<void> exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52830/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_52830.dir/build.make CMakeFiles/cmTC_52830.dir/build
+Building CXX object CMakeFiles/cmTC_52830.dir/CheckTypeExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_52830.dir/CheckTypeExists.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeTmp/CheckTypeExists.cxx
+/Users/kit/Documents/ITK/ITKbin/CMakeTmp/CheckTypeExists.cxx:2:10: fatal error: 'tr1/memory' file not found
+#include <tr1/memory>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_52830.dir/CheckTypeExists.cxx.o] Error 1
+make: *** [cmTC_52830/fast] Error 2
+
+File /Users/kit/Documents/ITK/ITKbin/CMakeTmp/CheckTypeExists.c:
+/* */
+#include <tr1/memory>
+
+void cmakeRequireSymbol(std::tr1::shared_ptr<void> dummy){(void)dummy;}
+int main()
+{return 0;
+}
+
+Performing Test VXL_HAS_SSE2_HARDWARE_SUPPORT succeeded with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c196d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c196d.dir/build.make CMakeFiles/cmTC_c196d.dir/build
+Building CXX object CMakeFiles/cmTC_c196d.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_SSE2_HARDWARE_SUPPORT -fPIE   -o CMakeFiles/cmTC_c196d.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_c196d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c196d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_SSE2_HARDWARE_SUPPORT -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c196d.dir/vxl_platform_tests.cxx.o  -o cmTC_c196d 
+
+Performing Test VXL_HAS_ALIGNED_MALLOC failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_856bc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_856bc.dir/build.make CMakeFiles/cmTC_856bc.dir/build
+Building CXX object CMakeFiles/cmTC_856bc.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DVXL_HAS_ALIGNED_MALLOC  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_856bc.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1057:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_856bc.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_856bc/fast] Error 2
+
+Performing Test VXL_HAS_MINGW_ALIGNED_MALLOC failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_44f10/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_44f10.dir/build.make CMakeFiles/cmTC_44f10.dir/build
+Building CXX object CMakeFiles/cmTC_44f10.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DVXL_HAS_MINGW_ALIGNED_MALLOC  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_44f10.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1069:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_44f10.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_44f10/fast] Error 2
+
+Performing Test VXL_HAS_POSIX_MEMALIGN failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f308/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0f308.dir/build.make CMakeFiles/cmTC_0f308.dir/build
+Building CXX object CMakeFiles/cmTC_0f308.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++  -DVXL_HAS_POSIX_MEMALIGN  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_0f308.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1084:13: error: use of undeclared identifier 'memalign'
+  void* x = memalign(16,4*sizeof(float));
+            ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_0f308.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_0f308/fast] Error 2
+
+Performing Test VCL_COMPLEX_POW_WORKS succeeded with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10f2b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_10f2b.dir/build.make CMakeFiles/cmTC_10f2b.dir/build
+Building CXX object CMakeFiles/cmTC_10f2b.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_COMPLEX_POW_WORKS -fPIE   -o CMakeFiles/cmTC_10f2b.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_10f2b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10f2b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_COMPLEX_POW_WORKS -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_10f2b.dir/vxl_platform_tests.cxx.o  -o cmTC_10f2b 
+
+Determining if the finitef exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01e1e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_01e1e.dir/build.make CMakeFiles/cmTC_01e1e.dir/build
+Building CXX object CMakeFiles/cmTC_01e1e.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_01e1e.dir/CheckSymbolExists.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'finitef'; did you mean 'finite'?
+  return ((int*)(&finitef))[argc];
+                  ^~~~~~~
+                  finite
+/usr/include/math.h:757:12: note: 'finite' declared here
+extern int finite(double) __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_0, __MAC_10_9, __IPHONE_NA, __IPHONE_NA);
+           ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_01e1e.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_01e1e/fast] Error 2
+
+File /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef finitef
+  return ((int*)(&finitef))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the finitel exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83fe9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_83fe9.dir/build.make CMakeFiles/cmTC_83fe9.dir/build
+Building CXX object CMakeFiles/cmTC_83fe9.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_83fe9.dir/CheckSymbolExists.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'finitel'; did you mean 'finite'?
+  return ((int*)(&finitel))[argc];
+                  ^~~~~~~
+                  finite
+/usr/include/math.h:757:12: note: 'finite' declared here
+extern int finite(double) __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_0, __MAC_10_9, __IPHONE_NA, __IPHONE_NA);
+           ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_83fe9.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_83fe9/fast] Error 2
+
+File /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef finitel
+  return ((int*)(&finitel))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the finite exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_863db/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_863db.dir/build.make CMakeFiles/cmTC_863db.dir/build
+Building CXX object CMakeFiles/cmTC_863db.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC  -fPIE   -o CMakeFiles/cmTC_863db.dir/CheckSymbolExists.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:10: fatal error: 'ieeefp.h' file not found
+#include <ieeefp.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_863db.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_863db/fast] Error 2
+
+File /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <ieeefp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef finite
+  return ((int*)(&finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing Test VCL_CHAR_IS_SIGNED succeeded with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89c0a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_89c0a.dir/build.make CMakeFiles/cmTC_89c0a.dir/build
+Building CXX object CMakeFiles/cmTC_89c0a.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_CHAR_IS_SIGNED -fPIE   -o CMakeFiles/cmTC_89c0a.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_89c0a
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89c0a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_CHAR_IS_SIGNED -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_89c0a.dir/vxl_platform_tests.cxx.o  -o cmTC_89c0a -lm 
+
+Looking for 8-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90d04/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_90d04.dir/build.make CMakeFiles/cmTC_90d04.dir/build
+Building CXX object CMakeFiles/cmTC_90d04.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_90d04.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[8]' vs 'int (*)[16]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_90d04.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_90d04/fast] Error 2
+
+Looking for 16-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b271/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7b271.dir/build.make CMakeFiles/cmTC_7b271.dir/build
+Building CXX object CMakeFiles/cmTC_7b271.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_7b271.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[16]' vs 'int (*)[8]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7b271.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_7b271/fast] Error 2
+
+Looking for 16-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14cb1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_14cb1.dir/build.make CMakeFiles/cmTC_14cb1.dir/build
+Building CXX object CMakeFiles/cmTC_14cb1.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_14cb1.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[16]' vs 'int (*)[32]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_14cb1.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_14cb1/fast] Error 2
+
+Looking for 32-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a19fc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a19fc.dir/build.make CMakeFiles/cmTC_a19fc.dir/build
+Building CXX object CMakeFiles/cmTC_a19fc.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_a19fc.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[32]' vs 'int (*)[16]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a19fc.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_a19fc/fast] Error 2
+
+Looking for 32-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d59f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4d59f.dir/build.make CMakeFiles/cmTC_4d59f.dir/build
+Building CXX object CMakeFiles/cmTC_4d59f.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_4d59f.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[32]' vs 'int (*)[64]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4d59f.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_4d59f/fast] Error 2
+
+Looking for 64-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_afeec/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_afeec.dir/build.make CMakeFiles/cmTC_afeec.dir/build
+Building CXX object CMakeFiles/cmTC_afeec.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_afeec.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:944:14: error: unknown type name '__int64'
+double cast( THE_TYPE a, unsigned THE_TYPE b, signed THE_TYPE c )
+             ^
+/Users/kit/Documents/ITK/ITKbin/CMakeTmp/config.h:1:18: note: expanded from macro 'THE_TYPE'
+#define THE_TYPE __int64
+                 ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:944:44: error: expected ')'
+double cast( THE_TYPE a, unsigned THE_TYPE b, signed THE_TYPE c )
+                                           ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:944:12: note: to match this '('
+double cast( THE_TYPE a, unsigned THE_TYPE b, signed THE_TYPE c )
+           ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:946:32: error: use of undeclared identifier 'b'
+  return double( a ) + double( b ) + double( c );
+                               ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:946:46: error: use of undeclared identifier 'c'
+  return double( a ) + double( b ) + double( c );
+                                             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:34: error: use of undeclared identifier '__int64'
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+                                 ^
+/Users/kit/Documents/ITK/ITKbin/CMakeTmp/config.h:1:18: note: expanded from macro 'THE_TYPE'
+#define THE_TYPE __int64
+                 ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_afeec.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_afeec/fast] Error 2
+
+Looking for 32-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_114a3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_114a3.dir/build.make CMakeFiles/cmTC_114a3.dir/build
+Building CXX object CMakeFiles/cmTC_114a3.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_114a3.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[32]' vs 'int (*)[128]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_114a3.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_114a3/fast] Error 2
+
+Looking for 32-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e89e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0e89e.dir/build.make CMakeFiles/cmTC_0e89e.dir/build
+Building CXX object CMakeFiles/cmTC_0e89e.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_0e89e.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[32]' vs 'int (*)[64]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_0e89e.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_0e89e/fast] Error 2
+
+Looking for 64-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02dab/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_02dab.dir/build.make CMakeFiles/cmTC_02dab.dir/build
+Building CXX object CMakeFiles/cmTC_02dab.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_02dab.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[64]' vs 'int (*)[32]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_02dab.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_02dab/fast] Error 2
+
+Looking for 64-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a1c9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7a1c9.dir/build.make CMakeFiles/cmTC_7a1c9.dir/build
+Building CXX object CMakeFiles/cmTC_7a1c9.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_7a1c9.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[64]' vs 'int (*)[128]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7a1c9.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_7a1c9/fast] Error 2
+
+Looking for 96-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0cdb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a0cdb.dir/build.make CMakeFiles/cmTC_a0cdb.dir/build
+Building CXX object CMakeFiles/cmTC_a0cdb.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_a0cdb.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[96]' vs 'int (*)[32]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a0cdb.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_a0cdb/fast] Error 2
+
+Looking for 96-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea17a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ea17a.dir/build.make CMakeFiles/cmTC_ea17a.dir/build
+Building CXX object CMakeFiles/cmTC_ea17a.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_ea17a.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[96]' vs 'int (*)[64]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ea17a.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_ea17a/fast] Error 2
+
+Looking for 96-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b04a4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b04a4.dir/build.make CMakeFiles/cmTC_b04a4.dir/build
+Building CXX object CMakeFiles/cmTC_b04a4.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_b04a4.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[96]' vs 'int (*)[128]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b04a4.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_b04a4/fast] Error 2
+
+Looking for 128-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35fbb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_35fbb.dir/build.make CMakeFiles/cmTC_35fbb.dir/build
+Building CXX object CMakeFiles/cmTC_35fbb.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_35fbb.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[128]' vs 'int (*)[32]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_35fbb.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_35fbb/fast] Error 2
+
+Looking for 128-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3baba/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3baba.dir/build.make CMakeFiles/cmTC_3baba.dir/build
+Building CXX object CMakeFiles/cmTC_3baba.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVXL_HAS_TYPE_OF_SIZE -fPIE   -o CMakeFiles/cmTC_3baba.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:957:14: error: redeclaration of 'verify_size' with a different type: 'int (*)[128]' vs 'int (*)[64]'
+extern int (*verify_size)[THE_SIZE];
+             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:956:14: note: previous declaration is here
+extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+             ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3baba.dir/vxl_platform_tests.cxx.o] Error 1
+make: *** [cmTC_3baba/fast] Error 2
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d923/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5d923.dir/build.make CMakeFiles/cmTC_5d923.dir/build
+Building C object CMakeFiles/cmTC_5d923.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIC -DCHECK_FUNCTION_EXISTS=tell -fPIE   -o CMakeFiles/cmTC_5d923.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5d923
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d923.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIC -DCHECK_FUNCTION_EXISTS=tell -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5d923.dir/CheckFunctionExists.c.o  -o cmTC_5d923 -lm 
+Undefined symbols for architecture x86_64:
+  "_tell", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5d923] Error 1
+make: *** [cmTC_5d923/fast] Error 2
+
+
+Performing Test VCL_NUMERIC_LIMITS_HAS_INFINITY succeeded with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05b0e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_05b0e.dir/build.make CMakeFiles/cmTC_05b0e.dir/build
+Building CXX object CMakeFiles/cmTC_05b0e.dir/vxl_platform_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_NUMERIC_LIMITS_HAS_INFINITY -fPIE   -o CMakeFiles/cmTC_05b0e.dir/vxl_platform_tests.cxx.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_05b0e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05b0e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w  -fPIC -DVCL_NUMERIC_LIMITS_HAS_INFINITY -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_05b0e.dir/vxl_platform_tests.cxx.o  -o cmTC_05b0e -lm 
+
+Determining if the include file tr1/type_traits exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e27e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4e27e.dir/build.make CMakeFiles/cmTC_4e27e.dir/build
+Building CXX object CMakeFiles/cmTC_4e27e.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual   -fPIE   -o CMakeFiles/cmTC_4e27e.dir/CheckIncludeFile.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/type_traits' file not found
+#include <tr1/type_traits>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4e27e.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_4e27e/fast] Error 2
+
+
+Performing Test ITK_PRIVATE_DYNAMIC_CAST failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f88b9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f88b9.dir/build.make CMakeFiles/cmTC_f88b9.dir/build
+Building CXX object CMakeFiles/cmTC_f88b9.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual   -fPIE   -o CMakeFiles/cmTC_f88b9.dir/CheckIncludeFile.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_f88b9
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f88b9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual   -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_f88b9.dir/CheckIncludeFile.cxx.o  -o cmTC_f88b9 
+
+Determining if files sys/time.h;winsock.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b71d5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b71d5.dir/build.make CMakeFiles/cmTC_b71d5.dir/build
+Building C object CMakeFiles/cmTC_b71d5.dir/GDCM_HAVE_WINSOCK_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_b71d5.dir/GDCM_HAVE_WINSOCK_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/GDCM_HAVE_WINSOCK_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/GDCM_HAVE_WINSOCK_H.c:3:10: fatal error: 'winsock.h' file not found
+#include <winsock.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b71d5.dir/GDCM_HAVE_WINSOCK_H.c.o] Error 1
+make: *** [cmTC_b71d5/fast] Error 2
+
+Source:
+/* */
+#include <sys/time.h>
+#include <winsock.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h;byteswap.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2910f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2910f.dir/build.make CMakeFiles/cmTC_2910f.dir/build
+Building C object CMakeFiles/cmTC_2910f.dir/GDCM_HAVE_BYTESWAP_FILE_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_2910f.dir/GDCM_HAVE_BYTESWAP_FILE_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/GDCM_HAVE_BYTESWAP_FILE_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/GDCM_HAVE_BYTESWAP_FILE_H.c:3:10: fatal error: 'byteswap.h' file not found
+#include <byteswap.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_2910f.dir/GDCM_HAVE_BYTESWAP_FILE_H.c.o] Error 1
+make: *** [cmTC_2910f/fast] Error 2
+
+Source:
+/* */
+#include <sys/time.h>
+#include <byteswap.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file rpc.h exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90d55/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_90d55.dir/build.make CMakeFiles/cmTC_90d55.dir/build
+Building C object CMakeFiles/cmTC_90d55.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_90d55.dir/CheckIncludeFile.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'rpc.h' file not found
+#include <rpc.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_90d55.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_90d55/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_410c5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_410c5.dir/build.make CMakeFiles/cmTC_410c5.dir/build
+Building C object CMakeFiles/cmTC_410c5.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=_stricmp -fPIE   -o CMakeFiles/cmTC_410c5.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_410c5
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_410c5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=_stricmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_410c5.dir/CheckFunctionExists.c.o  -o cmTC_410c5 
+Undefined symbols for architecture x86_64:
+  "__stricmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_410c5] Error 1
+make: *** [cmTC_410c5/fast] Error 2
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ddc9d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ddc9d.dir/build.make CMakeFiles/cmTC_ddc9d.dir/build
+Building C object CMakeFiles/cmTC_ddc9d.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=_strnicmp -fPIE   -o CMakeFiles/cmTC_ddc9d.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ddc9d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddc9d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=_strnicmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ddc9d.dir/CheckFunctionExists.c.o  -o cmTC_ddc9d 
+Undefined symbols for architecture x86_64:
+  "__strnicmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_ddc9d] Error 1
+make: *** [cmTC_ddc9d/fast] Error 2
+
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0ef1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b0ef1.dir/build.make CMakeFiles/cmTC_b0ef1.dir/build
+Building C object CMakeFiles/cmTC_b0ef1.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=_snprintf -fPIE   -o CMakeFiles/cmTC_b0ef1.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b0ef1
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0ef1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=_snprintf -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b0ef1.dir/CheckFunctionExists.c.o  -o cmTC_b0ef1 
+Undefined symbols for architecture x86_64:
+  "__snprintf", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b0ef1] Error 1
+make: *** [cmTC_b0ef1/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test GDCM_HAVE_WCHAR_IFSTREAM failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1e4a5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1e4a5.dir/build.make CMakeFiles/cmTC_1e4a5.dir/build
+Building CXX object CMakeFiles/cmTC_1e4a5.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -I/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/math.h  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w -DGDCM_HAVE_WCHAR_IFSTREAM -fPIE   -o CMakeFiles/cmTC_1e4a5.dir/src.cxx.o -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/src.cxx
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/src.cxx:2:55: error: no matching constructor for initialization of 'std::ifstream' (aka 'basic_ifstream<char>')
+int main() { const wchar_t fn[10] = {}; std::ifstream is( fn ); return 0;}
+                                                      ^   ~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd:131:32: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const wchar_t [10]' to 'const std::__1::basic_ifstream<char, std::__1::char_traits<char> >' for 1st argument
+    class _LIBCPP_TEMPLATE_VIS basic_ifstream;
+                               ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/fstream:1016:14: note: candidate constructor not viable: no known conversion from 'const wchar_t [10]' to 'const char *' for 1st argument
+    explicit basic_ifstream(const char* __s, ios_base::openmode __mode = ios_base::in);
+             ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/fstream:1018:14: note: candidate constructor not viable: no known conversion from 'const wchar_t [10]' to 'const string' (aka 'const basic_string<char, char_traits<char>, allocator<char> >') for 1st argument
+    explicit basic_ifstream(const string& __s, ios_base::openmode __mode = ios_base::in);
+             ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/fstream:1013:5: note: candidate constructor not viable: requires 0 arguments, but 1 was provided
+    basic_ifstream();
+    ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_1e4a5.dir/src.cxx.o] Error 1
+make: *** [cmTC_1e4a5/fast] Error 2
+
+Source file was:
+#include <fstream>
+int main() { const wchar_t fn[10] = {}; std::ifstream is( fn ); return 0;}
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70bd0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_70bd0.dir/build.make CMakeFiles/cmTC_70bd0.dir/build
+Building C object CMakeFiles/cmTC_70bd0.dir/OPJ_HAVE_MALLOC_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_70bd0.dir/OPJ_HAVE_MALLOC_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_70bd0.dir/OPJ_HAVE_MALLOC_H.c.o] Error 1
+make: *** [cmTC_70bd0/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0766/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d0766.dir/build.make CMakeFiles/cmTC_d0766.dir/build
+Building C object CMakeFiles/cmTC_d0766.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_d0766.dir/CheckSymbolExists.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d0766.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_d0766/fast] Error 2
+
+File /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memalign exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1e53/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d1e53.dir/build.make CMakeFiles/cmTC_d1e53.dir/build
+Building C object CMakeFiles/cmTC_d1e53.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_d1e53.dir/CheckSymbolExists.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d1e53.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_d1e53/fast] Error 2
+
+File /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function WSAStartup exists in the ws2_32;m;dl failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c736/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6c736.dir/build.make CMakeFiles/cmTC_6c736.dir/build
+Building C object CMakeFiles/cmTC_6c736.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=WSAStartup -fPIE   -o CMakeFiles/cmTC_6c736.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6c736
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c736.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=WSAStartup -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_6c736.dir/CheckFunctionExists.c.o  -o cmTC_6c736 -lws2_32 -lm -ldl 
+ld: library not found for -lws2_32
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6c736] Error 1
+make: *** [cmTC_6c736/fast] Error 2
+
+
+Determining if the function gethostbyname exists in the wsock32;m;dl failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d53aa/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d53aa.dir/build.make CMakeFiles/cmTC_d53aa.dir/build
+Building C object CMakeFiles/cmTC_d53aa.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE   -o CMakeFiles/cmTC_d53aa.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d53aa
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d53aa.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=gethostbyname -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_d53aa.dir/CheckFunctionExists.c.o  -o cmTC_d53aa -lwsock32 -lm -ldl 
+ld: library not found for -lwsock32
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d53aa] Error 1
+make: *** [cmTC_d53aa/fast] Error 2
+
+
+Determining if the function gethostname exists in the ucb;m;dl failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6049b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6049b.dir/build.make CMakeFiles/cmTC_6049b.dir/build
+Building C object CMakeFiles/cmTC_6049b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=gethostname -fPIE   -o CMakeFiles/cmTC_6049b.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6049b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6049b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=gethostname -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_6049b.dir/CheckFunctionExists.c.o  -o cmTC_6049b -lucb -lm -ldl 
+ld: library not found for -lucb
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6049b] Error 1
+make: *** [cmTC_6049b/fast] Error 2
+
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;features.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70beb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_70beb.dir/build.make CMakeFiles/cmTC_70beb.dir/build
+Building C object CMakeFiles/cmTC_70beb.dir/H5_HAVE_FEATURES_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_70beb.dir/H5_HAVE_FEATURES_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_FEATURES_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_FEATURES_H.c:11:10: fatal error: 'features.h' file not found
+#include <features.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_70beb.dir/H5_HAVE_FEATURES_H.c.o] Error 1
+make: *** [cmTC_70beb/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <features.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;io.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbdbc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cbdbc.dir/build.make CMakeFiles/cmTC_cbdbc.dir/build
+Building C object CMakeFiles/cmTC_cbdbc.dir/H5_HAVE_IO_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_cbdbc.dir/H5_HAVE_IO_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_IO_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_IO_H.c:14:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_cbdbc.dir/H5_HAVE_IO_H.c.o] Error 1
+make: *** [cmTC_cbdbc/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <mach/mach_time.h>
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;winsock2.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1d54/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f1d54.dir/build.make CMakeFiles/cmTC_f1d54.dir/build
+Building C object CMakeFiles/cmTC_f1d54.dir/H5_HAVE_WINSOCK2_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_f1d54.dir/H5_HAVE_WINSOCK2_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_WINSOCK2_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_WINSOCK2_H.c:14:10: fatal error: 'winsock2.h' file not found
+#include <winsock2.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f1d54.dir/H5_HAVE_WINSOCK2_H.c.o] Error 1
+make: *** [cmTC_f1d54/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <mach/mach_time.h>
+#include <winsock2.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;globus/common.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60a49/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_60a49.dir/build.make CMakeFiles/cmTC_60a49.dir/build
+Building C object CMakeFiles/cmTC_60a49.dir/H5_HAVE_GLOBUS_COMMON_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_60a49.dir/H5_HAVE_GLOBUS_COMMON_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_GLOBUS_COMMON_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_GLOBUS_COMMON_H.c:15:10: fatal error: 'globus/common.h' file not found
+#include <globus/common.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_60a49.dir/H5_HAVE_GLOBUS_COMMON_H.c.o] Error 1
+make: *** [cmTC_60a49/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <mach/mach_time.h>
+#include <sys/timeb.h>
+#include <globus/common.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;pdb.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75d4a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_75d4a.dir/build.make CMakeFiles/cmTC_75d4a.dir/build
+Building C object CMakeFiles/cmTC_75d4a.dir/H5_HAVE_PDB_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_75d4a.dir/H5_HAVE_PDB_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_PDB_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_PDB_H.c:15:10: fatal error: 'pdb.h' file not found
+#include <pdb.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_75d4a.dir/H5_HAVE_PDB_H.c.o] Error 1
+make: *** [cmTC_75d4a/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <mach/mach_time.h>
+#include <sys/timeb.h>
+#include <pdb.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/resource.h;sys/time.h;unistd.h;sys/ioctl.h;sys/stat.h;sys/socket.h;sys/types.h;stddef.h;setjmp.h;dirent.h;stdint.h;mach/mach_time.h;sys/timeb.h;pthread.h;srbclient.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36d0d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_36d0d.dir/build.make CMakeFiles/cmTC_36d0d.dir/build
+Building C object CMakeFiles/cmTC_36d0d.dir/H5_HAVE_SRBCLIENT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_36d0d.dir/H5_HAVE_SRBCLIENT_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_SRBCLIENT_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/H5_HAVE_SRBCLIENT_H.c:16:10: fatal error: 'srbclient.h' file not found
+#include <srbclient.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_36d0d.dir/H5_HAVE_SRBCLIENT_H.c.o] Error 1
+make: *** [cmTC_36d0d/fast] Error 2
+
+Source:
+/* */
+#include <sys/resource.h>
+#include <sys/time.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <dirent.h>
+#include <stdint.h>
+#include <mach/mach_time.h>
+#include <sys/timeb.h>
+#include <pthread.h>
+#include <srbclient.h>
+
+
+int main(void){return 0;}
+
+Performing Other Test HAVE_OFF64_T failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52af7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_52af7.dir/build.make CMakeFiles/cmTC_52af7.dir/build
+Building C object CMakeFiles/cmTC_52af7.dir/HDFTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DHAVE_OFF64_T  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -fPIE   -o CMakeFiles/cmTC_52af7.dir/HDFTests.c.o   -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c:292:3: error: unknown type name 'off64_t'; did you mean 'off_t'?
+  off64_t n = 0;
+  ^~~~~~~
+  off_t
+/usr/include/sys/_types/_off_t.h:31:25: note: 'off_t' declared here
+typedef __darwin_off_t          off_t;
+                                ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_52af7.dir/HDFTests.c.o] Error 1
+make: *** [cmTC_52af7/fast] Error 2
+
+Determining size of __int64 failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_59221/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_59221.dir/build.make CMakeFiles/cmTC_59221.dir/build
+Building C object CMakeFiles/cmTC_59221.dir/H5_SIZEOF___INT64.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_59221.dir/H5_SIZEOF___INT64.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:25:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:26:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:27:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:28:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:29:12: error: use of undeclared identifier '__int64'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_59221.dir/H5_SIZEOF___INT64.c.o] Error 1
+make: *** [cmTC_59221/fast] Error 2
+
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0205/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b0205.dir/build.make CMakeFiles/cmTC_b0205.dir/build
+Building C object CMakeFiles/cmTC_b0205.dir/H5_SIZEOF_OFF64_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_b0205.dir/H5_SIZEOF_OFF64_T.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c:25:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c:26:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c:27:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c:28:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_b0205.dir/H5_SIZEOF_OFF64_T.c.o] Error 1
+make: *** [cmTC_b0205/fast] Error 2
+
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckTypeSize/H5_SIZEOF_OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the variable CLOCK_MONOTONIC exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39222/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_39222.dir/build.make CMakeFiles/cmTC_39222.dir/build
+Building C object CMakeFiles/cmTC_39222.dir/CheckVariableExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_VARIABLE_EXISTS=CLOCK_MONOTONIC -fPIE   -o CMakeFiles/cmTC_39222.dir/CheckVariableExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckVariableExists.c
+Linking C executable cmTC_39222
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39222.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_VARIABLE_EXISTS=CLOCK_MONOTONIC -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_39222.dir/CheckVariableExists.c.o  -o cmTC_39222 -lm -ldl 
+Undefined symbols for architecture x86_64:
+  "_CLOCK_MONOTONIC", referenced from:
+      _main in CheckVariableExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_39222] Error 1
+make: *** [cmTC_39222/fast] Error 2
+
+
+Performing Other Test HAVE___TM_GMTOFF failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd37b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dd37b.dir/build.make CMakeFiles/cmTC_dd37b.dir/build
+Building C object CMakeFiles/cmTC_dd37b.dir/HDFTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DHAVE___TM_GMTOFF  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -fPIE   -o CMakeFiles/cmTC_dd37b.dir/HDFTests.c.o   -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c:170:30: error: no member named '__tm_gmtoff' in 'struct tm'; did you mean 'tm_gmtoff'?
+SIMPLE_TEST(struct tm tm; tm.__tm_gmtoff=0);
+                             ^~~~~~~~~~~
+                             tm_gmtoff
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c:1:36: note: expanded from macro 'SIMPLE_TEST'
+#define SIMPLE_TEST(x) int main(){ x; return 0; }
+                                   ^
+/usr/include/time.h:84:7: note: 'tm_gmtoff' declared here
+        long    tm_gmtoff;      /* offset from UTC in seconds */
+                ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_dd37b.dir/HDFTests.c.o] Error 1
+make: *** [cmTC_dd37b/fast] Error 2
+
+Performing Other Test HAVE_TM_ZONE failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f65c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0f65c.dir/build.make CMakeFiles/cmTC_0f65c.dir/build
+Building C object CMakeFiles/cmTC_0f65c.dir/HDFTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DHAVE_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -fPIE   -o CMakeFiles/cmTC_0f65c.dir/HDFTests.c.o   -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_0f65c
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f65c.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DHAVE_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_0f65c.dir/HDFTests.c.o  -o cmTC_0f65c -lm -ldl 
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0f65c] Error 1
+make: *** [cmTC_0f65c/fast] Error 2
+
+Performing Other Test HAVE_STRUCT_TM_TM_ZONE failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b3e7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9b3e7.dir/build.make CMakeFiles/cmTC_9b3e7.dir/build
+Building C object CMakeFiles/cmTC_9b3e7.dir/HDFTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DHAVE_STRUCT_TM_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -fPIE   -o CMakeFiles/cmTC_9b3e7.dir/HDFTests.c.o   -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c
+Linking C executable cmTC_9b3e7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b3e7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DHAVE_STRUCT_TM_TM_ZONE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_9b3e7.dir/HDFTests.c.o  -o cmTC_9b3e7 -lm -ldl 
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9b3e7] Error 1
+make: *** [cmTC_9b3e7/fast] Error 2
+
+Performing Other Test HAVE_STRUCT_VIDEOCONFIG failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73d1c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_73d1c.dir/build.make CMakeFiles/cmTC_73d1c.dir/build
+Building C object CMakeFiles/cmTC_73d1c.dir/HDFTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DHAVE_STRUCT_VIDEOCONFIG  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -fPIE   -o CMakeFiles/cmTC_73d1c.dir/HDFTests.c.o   -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c:447:32: error: variable has incomplete type 'struct videoconfig'
+SIMPLE_TEST(struct videoconfig w; w.numtextcols=0);
+                               ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c:447:20: note: forward declaration of 'struct videoconfig'
+SIMPLE_TEST(struct videoconfig w; w.numtextcols=0);
+                   ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_73d1c.dir/HDFTests.c.o] Error 1
+make: *** [cmTC_73d1c/fast] Error 2
+
+Performing Other Test HAVE_STRUCT_TEXT_INFO failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf3bd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bf3bd.dir/build.make CMakeFiles/cmTC_bf3bd.dir/build
+Building C object CMakeFiles/cmTC_bf3bd.dir/HDFTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DHAVE_STRUCT_TEXT_INFO  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -fPIE   -o CMakeFiles/cmTC_bf3bd.dir/HDFTests.c.o   -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c:453:30: error: variable has incomplete type 'struct text_info'
+SIMPLE_TEST(struct text_info w; w.screenwidth=0);
+                             ^
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c:453:20: note: forward declaration of 'struct text_info'
+SIMPLE_TEST(struct text_info w; w.screenwidth=0);
+                   ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_bf3bd.dir/HDFTests.c.o] Error 1
+make: *** [cmTC_bf3bd/fast] Error 2
+
+Determining if the function _getvideoconfig exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2cdf9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2cdf9.dir/build.make CMakeFiles/cmTC_2cdf9.dir/build
+Building C object CMakeFiles/cmTC_2cdf9.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=_getvideoconfig -fPIE   -o CMakeFiles/cmTC_2cdf9.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2cdf9
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cdf9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=_getvideoconfig -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2cdf9.dir/CheckFunctionExists.c.o  -o cmTC_2cdf9 -lm -ldl 
+Undefined symbols for architecture x86_64:
+  "__getvideoconfig", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_2cdf9] Error 1
+make: *** [cmTC_2cdf9/fast] Error 2
+
+
+Determining if the function gettextinfo exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a21d3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a21d3.dir/build.make CMakeFiles/cmTC_a21d3.dir/build
+Building C object CMakeFiles/cmTC_a21d3.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=gettextinfo -fPIE   -o CMakeFiles/cmTC_a21d3.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a21d3
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a21d3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=gettextinfo -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a21d3.dir/CheckFunctionExists.c.o  -o cmTC_a21d3 -lm -ldl 
+Undefined symbols for architecture x86_64:
+  "_gettextinfo", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_a21d3] Error 1
+make: *** [cmTC_a21d3/fast] Error 2
+
+
+Determining if the function _scrsize exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b8c2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8b8c2.dir/build.make CMakeFiles/cmTC_8b8c2.dir/build
+Building C object CMakeFiles/cmTC_8b8c2.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=_scrsize -fPIE   -o CMakeFiles/cmTC_8b8c2.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8b8c2
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b8c2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=_scrsize -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8b8c2.dir/CheckFunctionExists.c.o  -o cmTC_8b8c2 -lm -ldl 
+Undefined symbols for architecture x86_64:
+  "__scrsize", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_8b8c2] Error 1
+make: *** [cmTC_8b8c2/fast] Error 2
+
+
+Determining if the function GetConsoleScreenBufferInfo exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4f8e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c4f8e.dir/build.make CMakeFiles/cmTC_c4f8e.dir/build
+Building C object CMakeFiles/cmTC_c4f8e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=GetConsoleScreenBufferInfo -fPIE   -o CMakeFiles/cmTC_c4f8e.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c4f8e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4f8e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=GetConsoleScreenBufferInfo -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c4f8e.dir/CheckFunctionExists.c.o  -o cmTC_c4f8e -lm -ldl 
+Undefined symbols for architecture x86_64:
+  "_GetConsoleScreenBufferInfo", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c4f8e] Error 1
+make: *** [cmTC_c4f8e/fast] Error 2
+
+
+Determining if the function setsysinfo exists failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f250e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f250e.dir/build.make CMakeFiles/cmTC_f250e.dir/build
+Building C object CMakeFiles/cmTC_f250e.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=setsysinfo -fPIE   -o CMakeFiles/cmTC_f250e.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f250e
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f250e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=setsysinfo -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f250e.dir/CheckFunctionExists.c.o  -o cmTC_f250e -lm -ldl 
+Undefined symbols for architecture x86_64:
+  "_setsysinfo", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f250e] Error 1
+make: *** [cmTC_f250e/fast] Error 2
+
+
+Performing CXX Test OLD_HEADER_FILENAME failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_015aa/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_015aa.dir/build.make CMakeFiles/cmTC_015aa.dir/build
+Building CXX object CMakeFiles/cmTC_015aa.dir/HDFCXXTests.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w -DOLD_HEADER_FILENAME  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -fPIE   -o CMakeFiles/cmTC_015aa.dir/HDFCXXTests.cpp.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFCXXTests.cpp
+Linking CXX executable cmTC_015aa
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_015aa.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w -DOLD_HEADER_FILENAME  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_015aa.dir/HDFCXXTests.cpp.o  -o cmTC_015aa -lm -ldl 
+
+Performing CXX Test H5_NO_NAMESPACE failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce3e1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ce3e1.dir/build.make CMakeFiles/cmTC_ce3e1.dir/build
+Building CXX object CMakeFiles/cmTC_ce3e1.dir/HDFCXXTests.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w -DH5_NO_NAMESPACE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -fPIE   -o CMakeFiles/cmTC_ce3e1.dir/HDFCXXTests.cpp.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFCXXTests.cpp
+Linking CXX executable cmTC_ce3e1
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce3e1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w -DH5_NO_NAMESPACE  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_ce3e1.dir/HDFCXXTests.cpp.o  -o cmTC_ce3e1 -lm -ldl 
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_ce3e1] Error 1
+make: *** [cmTC_ce3e1/fast] Error 2
+
+Performing CXX Test H5_NO_STD failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6cb6b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6cb6b.dir/build.make CMakeFiles/cmTC_6cb6b.dir/build
+Building CXX object CMakeFiles/cmTC_6cb6b.dir/HDFCXXTests.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w -DH5_NO_STD  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -fPIE   -o CMakeFiles/cmTC_6cb6b.dir/HDFCXXTests.cpp.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFCXXTests.cpp
+Linking CXX executable cmTC_6cb6b
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cb6b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w -DH5_NO_STD  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_6cb6b.dir/HDFCXXTests.cpp.o  -o cmTC_6cb6b -lm -ldl 
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6cb6b] Error 1
+make: *** [cmTC_6cb6b/fast] Error 2
+
+Performing CXX Test BOOL_NOTDEFINED failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_639a3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_639a3.dir/build.make CMakeFiles/cmTC_639a3.dir/build
+Building CXX object CMakeFiles/cmTC_639a3.dir/HDFCXXTests.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w -DBOOL_NOTDEFINED  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -fPIE   -o CMakeFiles/cmTC_639a3.dir/HDFCXXTests.cpp.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFCXXTests.cpp
+Linking CXX executable cmTC_639a3
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_639a3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w -DBOOL_NOTDEFINED  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_639a3.dir/HDFCXXTests.cpp.o  -o cmTC_639a3 -lm -ldl 
+
+Performing CXX Test NO_STATIC_CAST failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51ec1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_51ec1.dir/build.make CMakeFiles/cmTC_51ec1.dir/build
+Building CXX object CMakeFiles/cmTC_51ec1.dir/HDFCXXTests.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w -DNO_STATIC_CAST  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -fPIE   -o CMakeFiles/cmTC_51ec1.dir/HDFCXXTests.cpp.o -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFCXXTests.cpp
+Linking CXX executable cmTC_51ec1
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51ec1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w -DNO_STATIC_CAST  -DHAVE_SYS_TIME_H -DHAVE_UNISTD_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_SOCKET_H -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_51ec1.dir/HDFCXXTests.cpp.o  -o cmTC_51ec1 -lm -ldl 
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5580d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5580d.dir/build.make CMakeFiles/cmTC_5580d.dir/build
+Building C object CMakeFiles/cmTC_5580d.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE   -o CMakeFiles/cmTC_5580d.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5580d
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5580d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=clock_gettime -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_5580d.dir/CheckFunctionExists.c.o  -o cmTC_5580d -lrt -lm -ldl 
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5580d] Error 1
+make: *** [cmTC_5580d/fast] Error 2
+
+
+Determining if the function clock_gettime exists in the posix4 failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7900/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b7900.dir/build.make CMakeFiles/cmTC_b7900.dir/build
+Building C object CMakeFiles/cmTC_b7900.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE   -o CMakeFiles/cmTC_b7900.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b7900
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7900.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=clock_gettime -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_b7900.dir/CheckFunctionExists.c.o  -o cmTC_b7900 -lposix4 -lm -ldl 
+ld: library not found for -lposix4
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b7900] Error 1
+make: *** [cmTC_b7900/fast] Error 2
+
+
+Test TEST_DIRECT_VFD_WORKS Compile failed with the following output:
+ Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ddb6c/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ddb6c.dir/build.make CMakeFiles/cmTC_ddb6c.dir/build
+Building C object CMakeFiles/cmTC_ddb6c.dir/HDFTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DTEST_DIRECT_VFD_WORKS -D_GNU_SOURCE -fPIE   -o CMakeFiles/cmTC_ddb6c.dir/HDFTests.c.o   -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c:314:49: error: use of undeclared identifier 'O_DIRECT'
+   if((fid=open("tst_file", O_CREAT | O_TRUNC | O_DIRECT, 0755))<0)
+                                                ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ddb6c.dir/HDFTests.c.o] Error 1
+make: *** [cmTC_ddb6c/fast] Error 2
+
+Test H5_LDOUBLE_TO_LONG_SPECIAL Run failed with the following output and exit code:
+ Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37a9f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_37a9f.dir/build.make CMakeFiles/cmTC_37a9f.dir/build
+Building C object CMakeFiles/cmTC_37a9f.dir/ConversionTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST -fPIE   -o CMakeFiles/cmTC_37a9f.dir/ConversionTests.c.o   -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_37a9f
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37a9f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DH5_LDOUBLE_TO_LONG_SPECIAL_TEST -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_37a9f.dir/ConversionTests.c.o  -o cmTC_37a9f 
+
+Test H5_LONG_TO_LDOUBLE_SPECIAL Run failed with the following output and exit code:
+ Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85db3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_85db3.dir/build.make CMakeFiles/cmTC_85db3.dir/build
+Building C object CMakeFiles/cmTC_85db3.dir/ConversionTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST -fPIE   -o CMakeFiles/cmTC_85db3.dir/ConversionTests.c.o   -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_85db3
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85db3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DH5_LONG_TO_LDOUBLE_SPECIAL_TEST -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_85db3.dir/ConversionTests.c.o  -o cmTC_85db3 
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34887/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_34887.dir/build.make CMakeFiles/cmTC_34887.dir/build
+Building C object CMakeFiles/cmTC_34887.dir/HAVE_MALLOC_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_34887.dir/HAVE_MALLOC_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_34887.dir/HAVE_MALLOC_H.c.o] Error 1
+make: *** [cmTC_34887/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c24d2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c24d2.dir/build.make CMakeFiles/cmTC_c24d2.dir/build
+Building C object CMakeFiles/cmTC_c24d2.dir/HAVE_WINDOWS_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_c24d2.dir/HAVE_WINDOWS_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:2:10: fatal error: 'windows.h' file not found
+#include <windows.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c24d2.dir/HAVE_WINDOWS_H.c.o] Error 1
+make: *** [cmTC_c24d2/fast] Error 2
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7645/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d7645.dir/build.make CMakeFiles/cmTC_d7645.dir/build
+Building C object CMakeFiles/cmTC_d7645.dir/HAVE_IEEEFP_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_d7645.dir/HAVE_IEEEFP_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_IEEEFP_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_IEEEFP_H.c:2:10: fatal error: 'ieeefp.h' file not found
+#include <ieeefp.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d7645.dir/HAVE_IEEEFP_H.c.o] Error 1
+make: *** [cmTC_d7645/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50f37/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_50f37.dir/build.make CMakeFiles/cmTC_50f37.dir/build
+Building C object CMakeFiles/cmTC_50f37.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w   -fPIC -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE   -o CMakeFiles/cmTC_50f37.dir/CheckFunctionExists.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_50f37
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50f37.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w   -fPIC -DCHECK_FUNCTION_EXISTS=clock_gettime -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_50f37.dir/CheckFunctionExists.c.o  -o cmTC_50f37  -L/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/time.h -Wl,-rpath,/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp/time.h -lrt 
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_50f37] Error 1
+make: *** [cmTC_50f37/fast] Error 2
+
+
+Determining if files sys/ndir.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6deaf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6deaf.dir/build.make CMakeFiles/cmTC_6deaf.dir/build
+Building C object CMakeFiles/cmTC_6deaf.dir/HAVE_SYS_NDIR_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w   -fPIC  -fPIE   -o CMakeFiles/cmTC_6deaf.dir/HAVE_SYS_NDIR_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_SYS_NDIR_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_SYS_NDIR_H.c:2:10: fatal error: 'sys/ndir.h' file not found
+#include <sys/ndir.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6deaf.dir/HAVE_SYS_NDIR_H.c.o] Error 1
+make: *** [cmTC_6deaf/fast] Error 2
+
+Source:
+/* */
+#include <sys/ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if files values.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4579/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d4579.dir/build.make CMakeFiles/cmTC_d4579.dir/build
+Building C object CMakeFiles/cmTC_d4579.dir/HAVE_VALUES_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w   -fPIC  -fPIE   -o CMakeFiles/cmTC_d4579.dir/HAVE_VALUES_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_VALUES_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_VALUES_H.c:2:10: fatal error: 'values.h' file not found
+#include <values.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d4579.dir/HAVE_VALUES_H.c.o] Error 1
+make: *** [cmTC_d4579/fast] Error 2
+
+Source:
+/* */
+#include <values.h>
+
+
+int main(void){return 0;}
+
+Determining if files vfork.h exist failed with the following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85667/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_85667.dir/build.make CMakeFiles/cmTC_85667.dir/build
+Building C object CMakeFiles/cmTC_85667.dir/HAVE_VFORK_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w   -fPIC  -fPIE   -o CMakeFiles/cmTC_85667.dir/HAVE_VFORK_H.c.o   -c /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_VFORK_H.c
+/Users/kit/Documents/ITK/ITKbin/CMakeFiles/CheckIncludeFiles/HAVE_VFORK_H.c:2:10: fatal error: 'vfork.h' file not found
+#include <vfork.h>
+         ^~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_85667.dir/HAVE_VFORK_H.c.o] Error 1
+make: *** [cmTC_85667/fast] Error 2
+
+Source:
+/* */
+#include <vfork.h>
+
+
+int main(void){return 0;}
+
+Value of the 22nd bit of a 32-bit quiet-NaN is 1TestQnanhibit.c produced following output:
+Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8a14/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d8a14.dir/build.make CMakeFiles/cmTC_d8a14.dir/build
+Building C object CMakeFiles/cmTC_d8a14.dir/TestQnanhibit.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -fPIE   -o CMakeFiles/cmTC_d8a14.dir/TestQnanhibit.c.o   -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMake/TestQnanhibit.c
+Linking C executable cmTC_d8a14
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8a14.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w  -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/cmTC_d8a14.dir/TestQnanhibit.c.o  -o cmTC_d8a14 
+-DTEEM_QNANHIBIT=1
+
+
+Performing Test ITK_PRIVATE_DYNAMIC_CAST failed with the following output:
+
+Test TEST_DIRECT_VFD_WORKS Compile failed with the following output:
+ Change Dir: /Users/kit/Documents/ITK/ITKbin/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d099d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d099d.dir/build.make CMakeFiles/cmTC_d099d.dir/build
+Building C object CMakeFiles/cmTC_d099d.dir/HDFTests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DTEST_DIRECT_VFD_WORKS -D_GNU_SOURCE -fPIE   -o CMakeFiles/cmTC_d099d.dir/HDFTests.c.o   -c /Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake_ext_mod/HDFTests.c:314:49: error: use of undeclared identifier 'O_DIRECT'
+   if((fid=open("tst_file", O_CREAT | O_TRUNC | O_DIRECT, 0755))<0)
+                                                ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d099d.dir/HDFTests.c.o] Error 1
+make: *** [cmTC_d099d/fast] Error 2
+

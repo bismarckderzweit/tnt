@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NIFTI/src/nifti/znzlib/znzlib.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKNIFTI"
+		],
+		"name" : "ITKznz"
+	}
+}

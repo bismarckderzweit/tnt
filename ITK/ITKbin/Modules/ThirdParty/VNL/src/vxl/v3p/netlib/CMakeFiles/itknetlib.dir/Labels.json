@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/v3p/netlib/triangle.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/VNL/src/vxl/v3p/netlib/triangle.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKVNL"
+		],
+		"name" : "itknetlib"
+	}
+}

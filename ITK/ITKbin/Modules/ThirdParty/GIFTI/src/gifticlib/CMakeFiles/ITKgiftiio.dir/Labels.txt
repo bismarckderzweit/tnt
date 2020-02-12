@@ -1,0 +1,5 @@
+# Target labels
+ ITKGIFTI
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GIFTI/src/gifticlib/gifti_io.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/GIFTI/src/gifticlib/gifti_xml.c

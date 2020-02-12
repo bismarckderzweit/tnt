@@ -1,0 +1,15 @@
+/**
+ \defgroup ITKIOPNG Module ITKIOPNG 
+ This module contains an ImageIO class for reading and writing
+files in the Portable Network Graphics (PNG) format. 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \li \ref ITKPNG 
+ \dot 
+ graph "ITKIOPNG" { 
+ "ITKIOPNG" -- "ITKIOImageBase"; 
+ "ITKIOPNG" -- "ITKPNG"; 
+ } 
+ \enddot 
+ */
+

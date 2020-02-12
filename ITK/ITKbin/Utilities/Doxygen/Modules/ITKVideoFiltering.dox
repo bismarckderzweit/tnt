@@ -1,0 +1,12 @@
+/**
+ \defgroup ITKVideoFiltering Module ITKVideoFiltering 
+ This module contains a group of basic video filtering classes. 
+ \par Dependencies:
+ \li \ref ITKVideoCore 
+ \dot 
+ graph "ITKVideoFiltering" { 
+ "ITKVideoFiltering" -- "ITKVideoCore"; 
+ } 
+ \enddot 
+ */
+

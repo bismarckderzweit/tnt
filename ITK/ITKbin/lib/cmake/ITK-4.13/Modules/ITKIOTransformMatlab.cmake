@@ -1,0 +1,13 @@
+set(ITKIOTransformMatlab_LOADED 1)
+set(ITKIOTransformMatlab_ENABLE_SHARED "1")
+set(ITKIOTransformMatlab_DEPENDS "ITKIOTransformBase")
+set(ITKIOTransformMatlab_PUBLIC_DEPENDS "ITKIOTransformBase")
+set(ITKIOTransformMatlab_TRANSITIVE_DEPENDS "ITKIOTransformBase")
+set(ITKIOTransformMatlab_PRIVATE_DEPENDS "")
+set(ITKIOTransformMatlab_LIBRARIES "ITKIOTransformMatlab")
+set(ITKIOTransformMatlab_INCLUDE_DIRS "/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/TransformMatlab/include")
+set(ITKIOTransformMatlab_LIBRARY_DIRS "")
+set(ITKIOTransformMatlab_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKIOTransformMatlab_TARGETS_FILE "")
+set(ITKIOTransformMatlab_FACTORY_NAMES "TransformIO::Matlab")
+

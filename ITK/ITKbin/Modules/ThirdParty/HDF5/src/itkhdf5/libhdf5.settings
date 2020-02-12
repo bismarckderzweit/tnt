@@ -1,0 +1,71 @@
+      SUMMARY OF THE HDF5 CONFIGURATION
+      =================================
+
+General Information:
+-------------------
+                   HDF5 Version: 1.8.17
+                  Configured on: 
+                  Configured by: Unix Makefiles
+                 Configure mode: CMAKE 3.13.3
+                    Host system: Darwin-17.2.0
+              Uname information: Darwin
+                       Byte sex: little-endian
+                      Libraries: 
+             Installation point: /usr/local
+
+Compiling Options:
+------------------
+               Compilation Mode: Release
+                     C Compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+                         CFLAGS:   -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w
+                      H5_CFLAGS: 
+                      AM_CFLAGS: 
+                       CPPFLAGS: 
+                    H5_CPPFLAGS: 
+                    AM_CPPFLAGS: 
+               Shared C Library: NO
+               Static C Library: YES
+  Statically Linked Executables: OFF
+                        LDFLAGS:  
+                     AM_LDFLAGS: 
+                Extra libraries: m;dl;itkzlib
+                       Archiver: /Library/Developer/CommandLineTools/usr/bin/ar
+                         Ranlib: /Library/Developer/CommandLineTools/usr/bin/ranlib
+              Debugged Packages: 
+                    API Tracing: OFF
+
+Languages:
+----------
+                        Fortran: 
+               Fortran Compiler: 
+          Fortran 2003 Compiler: 
+                  Fortran Flags: 
+               H5 Fortran Flags: 
+               AM Fortran Flags: 
+         Shared Fortran Library: NO
+         Static Fortran Library: YES
+
+                            C++: ON
+                   C++ Compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+                      C++ Flags:   -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual  -w
+                   H5 C++ Flags: 
+                   AM C++ Flags: 
+             Shared C++ Library: NO
+             Static C++ Library: YES
+
+Features:
+---------
+                  Parallel HDF5: OFF
+             High Level library: OFF
+                   Threadsafety: OFF
+            Default API Mapping: v18
+ With Deprecated Public Symbols: ON
+         I/O filters (external):  DEFLATE
+                            MPE: 
+                     Direct VFD: 
+                        dmalloc: 
+Clear file buffers before write: ON
+           Using memory checker: OFF
+         Function Stack Tracing: OFF
+      Strict File Format Checks: OFF
+   Optimization Instrumentation: OFF

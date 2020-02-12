@@ -1,0 +1,23 @@
+/**
+ \defgroup ITKFEMRegistration Module ITKFEMRegistration 
+ This module contains classes to perform deformable image
+registration with a structural mechanics, finite element method (FEM)
+deformation model.  Local loads (forces) are determined by the image-to-image
+metric, and the solid body is assumed to have uniform density and elasticity. 
+ \par Dependencies:
+ \li \ref ITKFEM 
+ \li \ref ITKImageFeature 
+ \li \ref ITKImageStatistics 
+ \li \ref ITKPDEDeformableRegistration 
+ \li \ref ITKSpatialObjects 
+ \dot 
+ graph "ITKFEMRegistration" { 
+ "ITKFEMRegistration" -- "ITKFEM"; 
+ "ITKFEMRegistration" -- "ITKImageFeature"; 
+ "ITKFEMRegistration" -- "ITKImageStatistics"; 
+ "ITKFEMRegistration" -- "ITKPDEDeformableRegistration"; 
+ "ITKFEMRegistration" -- "ITKSpatialObjects"; 
+ } 
+ \enddot 
+ */
+

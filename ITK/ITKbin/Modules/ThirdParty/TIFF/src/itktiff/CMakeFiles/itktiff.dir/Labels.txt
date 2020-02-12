@@ -1,0 +1,39 @@
+# Target labels
+ ITKTIFF
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_aux.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_close.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_codec.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_compress.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_color.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_dir.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_dirinfo.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_dirread.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_dirwrite.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_dumpmode.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_error.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_extension.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_flush.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_getimage.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_luv.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_lzw.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_next.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_open.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_packbits.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_pixarlog.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_predict.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_print.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_read.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_strip.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_swab.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_tile.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_thunder.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_version.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_warning.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_write.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_zip.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_jpeg.c
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_unix.c
+/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3sm.c
+/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3sm.c.rule

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKIOBioRad-4.13.a  CMakeFiles/ITKIOBioRad.dir/itkBioRadImageIOFactory.cxx.o CMakeFiles/ITKIOBioRad.dir/itkBioRadImageIO.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKIOBioRad-4.13.a

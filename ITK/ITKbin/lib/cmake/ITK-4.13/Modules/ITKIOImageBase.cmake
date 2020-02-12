@@ -1,0 +1,13 @@
+set(ITKIOImageBase_LOADED 1)
+set(ITKIOImageBase_ENABLE_SHARED "1")
+set(ITKIOImageBase_DEPENDS "ITKCommon")
+set(ITKIOImageBase_PUBLIC_DEPENDS "ITKCommon")
+set(ITKIOImageBase_TRANSITIVE_DEPENDS "ITKCommon")
+set(ITKIOImageBase_PRIVATE_DEPENDS "")
+set(ITKIOImageBase_LIBRARIES "ITKIOImageBase")
+set(ITKIOImageBase_INCLUDE_DIRS "/Users/kit/Documents/ITK/ITKbin/Modules/IO/ImageBase;/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/ImageBase/include")
+set(ITKIOImageBase_LIBRARY_DIRS "")
+set(ITKIOImageBase_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKIOImageBase_TARGETS_FILE "")
+set(ITKIOImageBase_FACTORY_NAMES "")
+

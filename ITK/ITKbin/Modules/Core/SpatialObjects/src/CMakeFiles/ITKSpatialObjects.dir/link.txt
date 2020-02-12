@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/libITKSpatialObjects-4.13.a  CMakeFiles/ITKSpatialObjects.dir/itkMetaEvent.cxx.o CMakeFiles/ITKSpatialObjects.dir/itkCylinderSpatialObject.cxx.o CMakeFiles/ITKSpatialObjects.dir/itkSpatialObjectFactoryBase.cxx.o CMakeFiles/ITKSpatialObjects.dir/itkArrowSpatialObject.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/libITKSpatialObjects-4.13.a

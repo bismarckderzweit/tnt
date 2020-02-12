@@ -1,0 +1,14 @@
+/**
+ \defgroup ITKSmoothing Module ITKSmoothing 
+ This module includes the most common image smoothing
+filters. For example, Gaussian and Median filters. You may also find it
+interesting to look at the ITKAnisotropicSmoothing group of filters. 
+ \par Dependencies:
+ \li \ref ITKImageFunction 
+ \dot 
+ graph "ITKSmoothing" { 
+ "ITKSmoothing" -- "ITKImageFunction"; 
+ } 
+ \enddot 
+ */
+

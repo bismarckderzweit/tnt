@@ -1,0 +1,5 @@
+# Target labels
+ ITKIONRRD
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/NRRD/src/itkNrrdImageIOFactory.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/NRRD/src/itkNrrdImageIO.cxx

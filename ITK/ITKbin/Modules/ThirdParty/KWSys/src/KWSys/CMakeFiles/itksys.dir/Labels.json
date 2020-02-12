@@ -1,0 +1,121 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/ProcessUNIX.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/Base64.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/EncodingC.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/MD5.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/System.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/Configure.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/SharedForward.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/Process.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/Base64.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/Encoding.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/MD5.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/System.h"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/Directory.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/Directory.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/DynamicLoader.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/DynamicLoader.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/EncodingCXX.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/Encoding.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/Glob.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/Glob.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/RegularExpression.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/RegularExpression.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/SystemTools.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/SystemTools.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/CommandLineArguments.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/CommandLineArguments.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/FStream.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/FStream.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWSys/src/KWSys/SystemInformation.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/SystemInformation.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/Configure.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/String.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/hashtable.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/hash_fun.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/hash_map.hxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/KWSys/src/itksys/hash_set.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKKWSys"
+		],
+		"name" : "itksys"
+	}
+}

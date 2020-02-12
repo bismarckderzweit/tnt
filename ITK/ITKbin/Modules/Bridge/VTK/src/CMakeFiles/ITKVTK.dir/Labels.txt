@@ -1,0 +1,4 @@
+# Target labels
+ ITKVTK
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Bridge/VTK/src/itkVTKImageExportBase.cxx

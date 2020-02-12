@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/libLBFGS/src/lbfgs.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKLIBLBFGS"
+		],
+		"name" : "itklbfgs"
+	}
+}

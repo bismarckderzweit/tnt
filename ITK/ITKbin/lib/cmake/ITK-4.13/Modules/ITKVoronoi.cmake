@@ -1,0 +1,13 @@
+set(ITKVoronoi_LOADED 1)
+set(ITKVoronoi_ENABLE_SHARED "0")
+set(ITKVoronoi_DEPENDS "ITKImageFilterBase;ITKMesh")
+set(ITKVoronoi_PUBLIC_DEPENDS "ITKImageFilterBase;ITKMesh")
+set(ITKVoronoi_TRANSITIVE_DEPENDS "ITKImageFilterBase;ITKMesh")
+set(ITKVoronoi_PRIVATE_DEPENDS "")
+set(ITKVoronoi_LIBRARIES "ITKCommon;ITKMesh")
+set(ITKVoronoi_INCLUDE_DIRS "/Users/kit/Documents/ITK/InsightToolKit/Modules/Segmentation/Voronoi/include")
+set(ITKVoronoi_LIBRARY_DIRS "")
+set(ITKVoronoi_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKVoronoi_TARGETS_FILE "")
+set(ITKVoronoi_FACTORY_NAMES "")
+

@@ -1,0 +1,4 @@
+# Target labels
+ ITKLIBLBFGS
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/libLBFGS/src/lbfgs.c

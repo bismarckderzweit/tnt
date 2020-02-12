@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Filtering/LabelMap/src/itkGeometryUtilities.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKLabelMap"
+		],
+		"name" : "ITKLabelMap"
+	}
+}

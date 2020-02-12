@@ -1,0 +1,4 @@
+# Target labels
+ ITKIOSpatialObjects
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/SpatialObjects/src/itkPolygonGroupSpatialObjectXMLFile.cxx

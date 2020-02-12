@@ -1,0 +1,17 @@
+/**
+ \defgroup ITKGPUThresholding Module ITKGPUThresholding 
+ This module contains the GPU implementation for image
+thresholding filters such as the classical binary thresholding. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKGPUCommon 
+ \li \ref ITKThresholding 
+ \dot 
+ graph "ITKGPUThresholding" { 
+ "ITKGPUThresholding" -- "ITKCommon"; 
+ "ITKGPUThresholding" -- "ITKGPUCommon"; 
+ "ITKGPUThresholding" -- "ITKThresholding"; 
+ } 
+ \enddot 
+ */
+

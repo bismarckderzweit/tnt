@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOMINC
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/MINC/src/itkMINCImageIO.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/MINC/src/itkMINCImageIOFactory.cxx

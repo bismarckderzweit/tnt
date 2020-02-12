@@ -1,0 +1,16 @@
+/**
+ \defgroup ITKVideoIO Module ITKVideoIO 
+ This module contains the basic framework for Video IO as
+well as the FileListIO mechanism that does not depend on any outside
+libraries. 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \li \ref ITKVideoCore 
+ \dot 
+ graph "ITKVideoIO" { 
+ "ITKVideoIO" -- "ITKIOImageBase"; 
+ "ITKVideoIO" -- "ITKVideoCore"; 
+ } 
+ \enddot 
+ */
+

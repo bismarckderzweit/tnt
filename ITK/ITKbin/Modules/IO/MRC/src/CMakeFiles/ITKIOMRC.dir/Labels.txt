@@ -1,0 +1,6 @@
+# Target labels
+ ITKIOMRC
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/MRC/src/itkMRCHeaderObject.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/MRC/src/itkMRCImageIO.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/IO/MRC/src/itkMRCImageIOFactory.cxx

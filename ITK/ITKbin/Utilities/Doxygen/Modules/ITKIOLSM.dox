@@ -1,0 +1,21 @@
+/**
+ \defgroup ITKIOLSM Module ITKIOLSM 
+ This module contains an ImageIO class for reading LSM (Zeiss)
+images LSM is a line of confocal laser scanning microscopes produced by the
+Zeiss company. LSM files are essentially extensions of the TIFF multiple image
+stack file format. 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \li \ref ITKIOTIFF 
+ \li \ref ITKKWIML 
+ \li \ref ITKTIFF 
+ \dot 
+ graph "ITKIOLSM" { 
+ "ITKIOLSM" -- "ITKIOImageBase"; 
+ "ITKIOLSM" -- "ITKIOTIFF"; 
+ "ITKIOLSM" -- "ITKKWIML"; 
+ "ITKIOLSM" -- "ITKTIFF"; 
+ } 
+ \enddot 
+ */
+

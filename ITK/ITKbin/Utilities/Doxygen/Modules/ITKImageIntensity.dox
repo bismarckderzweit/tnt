@@ -1,0 +1,23 @@
+/**
+ \defgroup ITKImageIntensity Module ITKImageIntensity 
+ This module contains filters that perform pixel-wise
+operations on the intensities of images. In particular you will find here
+filters that compute trigonometric operations on pixel values, intensity
+rescaling, exponentials, conversions between complex and reals, and filters
+that combine multiple images into images of multiple components, as well as
+filters that compute single scalar images from images of multiple components. 
+ \par Dependencies:
+ \li \ref ITKImageAdaptors 
+ \li \ref ITKImageGrid 
+ \li \ref ITKImageStatistics 
+ \li \ref ITKPath 
+ \dot 
+ graph "ITKImageIntensity" { 
+ "ITKImageIntensity" -- "ITKImageAdaptors"; 
+ "ITKImageIntensity" -- "ITKImageGrid"; 
+ "ITKImageIntensity" -- "ITKImageStatistics"; 
+ "ITKImageIntensity" -- "ITKPath"; 
+ } 
+ \enddot 
+ */
+

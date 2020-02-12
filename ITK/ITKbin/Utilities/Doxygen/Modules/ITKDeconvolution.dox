@@ -1,0 +1,15 @@
+/**
+ \defgroup ITKDeconvolution Module ITKDeconvolution 
+ This module contains filters that deconvolve images
+that have been blurred with a shift-invariant kernel. 
+ \par Dependencies:
+ \li \ref ITKConvolution 
+ \li \ref ITKImageSources 
+ \dot 
+ graph "ITKDeconvolution" { 
+ "ITKDeconvolution" -- "ITKConvolution"; 
+ "ITKDeconvolution" -- "ITKImageSources"; 
+ } 
+ \enddot 
+ */
+

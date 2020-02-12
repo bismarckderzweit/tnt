@@ -1,0 +1,14 @@
+# Target labels
+ ITKStatistics
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkProbabilityDistribution.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkDenseFrequencyContainer2.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkSparseFrequencyContainer2.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkChiSquareDistribution.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkGaussianDistribution.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkTDistribution.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkNormalVariateGenerator.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkDecisionRule.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkMaximumDecisionRule.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkMaximumRatioDecisionRule.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Statistics/src/itkMinimumDecisionRule.cxx

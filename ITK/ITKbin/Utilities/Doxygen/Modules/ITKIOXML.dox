@@ -1,0 +1,15 @@
+/**
+ \defgroup ITKIOXML Module ITKIOXML 
+ This module contains classes for reading and writing XML
+files with the expat library. 
+ \par Dependencies:
+ \li \ref ITKExpat 
+ \li \ref ITKIOImageBase 
+ \dot 
+ graph "ITKIOXML" { 
+ "ITKIOXML" -- "ITKExpat"; 
+ "ITKIOXML" -- "ITKIOImageBase"; 
+ } 
+ \enddot 
+ */
+

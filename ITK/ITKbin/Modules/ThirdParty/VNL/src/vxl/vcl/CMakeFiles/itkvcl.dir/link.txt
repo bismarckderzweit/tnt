@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../../lib/libitkvcl-4.13.a  CMakeFiles/itkvcl.dir/vcl_deprecated.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../../lib/libitkvcl-4.13.a

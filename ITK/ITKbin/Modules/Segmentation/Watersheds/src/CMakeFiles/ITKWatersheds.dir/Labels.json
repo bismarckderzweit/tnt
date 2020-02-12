@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Segmentation/Watersheds/src/itkWatershedMiniPipelineProgressCommand.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Segmentation/Watersheds/src/itkOneWayEquivalencyTable.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKWatersheds"
+		],
+		"name" : "ITKWatersheds"
+	}
+}

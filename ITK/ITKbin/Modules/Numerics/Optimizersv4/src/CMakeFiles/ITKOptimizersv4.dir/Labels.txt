@@ -1,0 +1,10 @@
+# Target labels
+ ITKOptimizersv4
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizersv4/src/itkObjectToObjectOptimizerBase.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizersv4/src/itkSingleValuedNonLinearVnlOptimizerv4.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizersv4/src/itkSingleValuedVnlCostFunctionAdaptorv4.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizersv4/src/itkLBFGSOptimizerv4.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizersv4/src/itkLBFGS2Optimizerv4.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizersv4/src/itkLBFGSBOptimizerv4.cxx
+/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Optimizersv4/src/itkAmoebaOptimizerv4.cxx

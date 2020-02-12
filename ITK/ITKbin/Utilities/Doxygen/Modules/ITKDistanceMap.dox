@@ -1,0 +1,18 @@
+/**
+ \defgroup ITKDistanceMap Module ITKDistanceMap 
+ This module contains multiple implementations of distance
+map filters. They include the implementations of Danielsson and Maurer, as
+well as other distance concepts such as Hausdorff and Chamfer distances. 
+ \par Dependencies:
+ \li \ref ITKBinaryMathematicalMorphology 
+ \li \ref ITKImageLabel 
+ \li \ref ITKNarrowBand 
+ \dot 
+ graph "ITKDistanceMap" { 
+ "ITKDistanceMap" -- "ITKBinaryMathematicalMorphology"; 
+ "ITKDistanceMap" -- "ITKImageLabel"; 
+ "ITKDistanceMap" -- "ITKNarrowBand"; 
+ } 
+ \enddot 
+ */
+

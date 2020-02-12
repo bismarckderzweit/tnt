@@ -1,0 +1,121 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_aux.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_close.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_codec.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_compress.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_color.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_dir.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_dirinfo.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_dirread.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_dirwrite.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_dumpmode.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_error.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_extension.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_flush.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_getimage.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_luv.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_lzw.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_next.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_open.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_packbits.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_pixarlog.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_predict.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_print.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_read.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_strip.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_swab.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_tile.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_thunder.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_version.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_warning.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_write.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_zip.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_jpeg.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_unix.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3sm.c"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/ITKbin/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3sm.c.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKTIFF"
+		],
+		"name" : "itktiff"
+	}
+}

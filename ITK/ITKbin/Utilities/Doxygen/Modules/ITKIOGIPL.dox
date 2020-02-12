@@ -1,0 +1,15 @@
+/**
+ \defgroup ITKIOGIPL Module ITKIOGIPL 
+ This module contains ImageIO classes for reading the Gipl
+(Guys Image Processing Lab) image format. 
+ \par Dependencies:
+ \li \ref ITKIOImageBase 
+ \li \ref ITKZLIB 
+ \dot 
+ graph "ITKIOGIPL" { 
+ "ITKIOGIPL" -- "ITKIOImageBase"; 
+ "ITKIOGIPL" -- "ITKZLIB"; 
+ } 
+ \enddot 
+ */
+

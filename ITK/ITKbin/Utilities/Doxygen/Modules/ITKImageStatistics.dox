@@ -1,0 +1,22 @@
+/**
+ \defgroup ITKImageStatistics Module ITKImageStatistics 
+ This module contains classes that compute statistics on
+images, or use those statistics to perform image operations. In particular you
+will find here: how to calculate image moments, minimum maximum values,
+projections, principal components analysis (PCA) for shape modeling,
+computation of label statistics and image accumulation. 
+ \par Dependencies:
+ \li \ref ITKImageCompose 
+ \li \ref ITKImageFilterBase 
+ \li \ref ITKSpatialObjects 
+ \li \ref ITKTransform 
+ \dot 
+ graph "ITKImageStatistics" { 
+ "ITKImageStatistics" -- "ITKImageCompose"; 
+ "ITKImageStatistics" -- "ITKImageFilterBase"; 
+ "ITKImageStatistics" -- "ITKSpatialObjects"; 
+ "ITKImageStatistics" -- "ITKTransform"; 
+ } 
+ \enddot 
+ */
+

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../lib/libitkzlib-4.13.a  CMakeFiles/itkzlib.dir/adler32.c.o CMakeFiles/itkzlib.dir/compress.c.o CMakeFiles/itkzlib.dir/crc32.c.o CMakeFiles/itkzlib.dir/deflate.c.o CMakeFiles/itkzlib.dir/gzio.c.o CMakeFiles/itkzlib.dir/inffast.c.o CMakeFiles/itkzlib.dir/inflate.c.o CMakeFiles/itkzlib.dir/inftrees.c.o CMakeFiles/itkzlib.dir/trees.c.o CMakeFiles/itkzlib.dir/uncompr.c.o CMakeFiles/itkzlib.dir/zutil.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../lib/libitkzlib-4.13.a

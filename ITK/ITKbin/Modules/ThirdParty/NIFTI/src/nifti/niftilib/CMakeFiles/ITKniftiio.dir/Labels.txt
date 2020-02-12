@@ -1,0 +1,4 @@
+# Target labels
+ ITKNIFTI
+# Source files and their labels
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/NIFTI/src/nifti/niftilib/nifti1_io.c

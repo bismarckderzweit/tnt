@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Core/SpatialObjects/src/itkMetaEvent.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Core/SpatialObjects/src/itkCylinderSpatialObject.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Core/SpatialObjects/src/itkSpatialObjectFactoryBase.cxx"
+		},
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Core/SpatialObjects/src/itkArrowSpatialObject.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKSpatialObjects"
+		],
+		"name" : "ITKSpatialObjects"
+	}
+}

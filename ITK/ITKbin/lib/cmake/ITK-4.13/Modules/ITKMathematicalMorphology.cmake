@@ -1,0 +1,13 @@
+set(ITKMathematicalMorphology_LOADED 1)
+set(ITKMathematicalMorphology_ENABLE_SHARED "0")
+set(ITKMathematicalMorphology_DEPENDS "ITKConnectedComponents;ITKImageFilterBase;ITKImageGrid;ITKImageIntensity;ITKThresholding")
+set(ITKMathematicalMorphology_PUBLIC_DEPENDS "")
+set(ITKMathematicalMorphology_TRANSITIVE_DEPENDS "ITKConnectedComponents;ITKImageFilterBase;ITKImageGrid;ITKImageIntensity;ITKThresholding")
+set(ITKMathematicalMorphology_PRIVATE_DEPENDS "")
+set(ITKMathematicalMorphology_LIBRARIES "ITKCommon;ITKStatistics;ITKTransform;ITKSpatialObjects;ITKPath")
+set(ITKMathematicalMorphology_INCLUDE_DIRS "/Users/kit/Documents/ITK/InsightToolKit/Modules/Filtering/MathematicalMorphology/include")
+set(ITKMathematicalMorphology_LIBRARY_DIRS "")
+set(ITKMathematicalMorphology_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKMathematicalMorphology_TARGETS_FILE "")
+set(ITKMathematicalMorphology_FACTORY_NAMES "")
+

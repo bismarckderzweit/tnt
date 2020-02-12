@@ -1,0 +1,17 @@
+/**
+ \defgroup ITKTransformFactory Module ITKTransformFactory 
+ This module contains a factory to create transforms
+from a string identifier. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKDisplacementField 
+ \li \ref ITKTransform 
+ \dot 
+ graph "ITKTransformFactory" { 
+ "ITKTransformFactory" -- "ITKCommon"; 
+ "ITKTransformFactory" -- "ITKDisplacementField"; 
+ "ITKTransformFactory" -- "ITKTransform"; 
+ } 
+ \enddot 
+ */
+

@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/kit/Documents/ITK/InsightToolKit/Modules/Numerics/Polynomials/src/itkMultivariateLegendrePolynomial.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKPolynomials"
+		],
+		"name" : "ITKPolynomials"
+	}
+}

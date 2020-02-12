@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^(itk|tif|fax|port|uv|tconf|t4|mk|itkjpeg|jpeg|mangle|jconfig|jmorecfg).*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWIML/src/itkkwiml/abi.h
+
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/KWIML/src/itkkwiml/int.h
+
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/itk_tiff_mangle.h
+
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/mkg3states.c
+itk_tif_config.h
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/itk_tif_config.h
+tif_fax3.h
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3.h
+
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3.h
+tiff.h
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tiff.h
+
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/tiff.h
+itk_tiff_mangle.h
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/itk_tiff_mangle.h
+itk_tif_config.h
+/Users/kit/Documents/ITK/InsightToolKit/Modules/ThirdParty/TIFF/src/itktiff/itk_tif_config.h
+
+Modules/ThirdParty/KWIML/src/itk_kwiml.h
+itkkwiml/abi.h
+Modules/ThirdParty/KWIML/src/itkkwiml/abi.h
+itkkwiml/int.h
+Modules/ThirdParty/KWIML/src/itkkwiml/int.h
+
+Modules/ThirdParty/TIFF/src/itktiff/itk_tif_config.h
+itk_kwiml.h
+Modules/ThirdParty/TIFF/src/itktiff/itk_kwiml.h
+

@@ -1,0 +1,13 @@
+set(ITKGPUSmoothing_LOADED 1)
+set(ITKGPUSmoothing_ENABLE_SHARED "0")
+set(ITKGPUSmoothing_DEPENDS "ITKCommon;ITKGPUCommon;ITKGPUImageFilterBase;ITKSmoothing")
+set(ITKGPUSmoothing_PUBLIC_DEPENDS "ITKCommon;ITKGPUCommon;ITKGPUImageFilterBase")
+set(ITKGPUSmoothing_TRANSITIVE_DEPENDS "ITKCommon;ITKGPUCommon;ITKGPUImageFilterBase;ITKSmoothing")
+set(ITKGPUSmoothing_PRIVATE_DEPENDS "")
+set(ITKGPUSmoothing_LIBRARIES "ITKCommon;ITKStatistics;ITKTransform")
+set(ITKGPUSmoothing_INCLUDE_DIRS "/Users/kit/Documents/ITK/InsightToolKit/Modules/Filtering/GPUSmoothing/include")
+set(ITKGPUSmoothing_LIBRARY_DIRS "")
+set(ITKGPUSmoothing_RUNTIME_LIBRARY_DIRS "/Users/kit/Documents/ITK/ITKbin/lib")
+set(ITKGPUSmoothing_TARGETS_FILE "")
+set(ITKGPUSmoothing_FACTORY_NAMES "")
+
