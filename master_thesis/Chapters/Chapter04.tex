@@ -1,0 +1,124 @@
+%*****************************************
+\chapter{Proposed Approaches}\label{ch:Approach}
+%*****************************************
+%\setcounter{figure}{10}
+% \NoCaseChange{Homo Sapiens}
+Validity and completeness give us two ways of measuring the impact of a feature attribution for local rankings. By defining them using $\tau$, we have direct measures that we can optimize for. To find the ideal valid or complete feature attribution, one must exhaustively search all possible feature subsets $\f'$ of all possible sizes that maximize the respective scores. Trivially, when $\f' = \f$, then $\f'$ has maximum validity and completeness, i.e., the complete feature set $\f$ is a valid and complete explanation. We emphasize that any human understandable explanation should be small in size. We, therefore, restrict the size of explanations to a small constant $k<< |\f|$. Mathematically we are interested in finding valid explanation $\f'$ such that $|\f'|=k$ while solving the following optimization problem
+
+% Hence we slightly reformulate the problem of finding a valid feature attribution as the problem of finding a subset $\f'$ of size $k$ that maximizes validity for a given ranking $\pi$. More specifically, the optimization problem we are interested in solving is
+
+\begin{equation}\label{eq:validity}
+    \argmax_{\f'} \tau(r(\f'), r(\f))
+\end{equation}
+
+
+
+where $|\f'| = k$. Similarly, to find a fixed size feature attribution that is complete we must solve
+
+\begin{equation}\label{eq:completeness}
+    \argmin_{\f'} \tau(r(\f'), r(\f))
+\end{equation}
+
+where once again $|\f'| = k$ since if $|\f'| = |\f|$ completeness is always maximized.
+ \begin{algorithm}[ht!]
+\begin{algorithmic}[1]
+
+\caption{Greedy Incremental Search}
+\label{alg:incSearch}
+\Require{Trained LTR model $r$, input feature set $\f$ corresponding to query-document pairs, size of explanation $k$}
+\Ensure{Valid/Complete Explanation $\f'$ of size $k$}
+    \Function{GreedySearch}{$r,\f$}
+    \State{Initialize $\f'=\emptyset$}
+\For{$(i=0,1,\ldots k-1)  $} 
+\State{Choose a feature $f\in \f \setminus \f'$ such that $\tau(r(\f'\cup f),r(f))$ is maximal/minimal}
+                \State{$\f'\leftarrow \f' \cup f$ }
+                \EndFor
+           
+		 \EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\mpara{Theoretical Properties and Limitations.} Before we describe our approach, let us examine some theoretical constraints of the optimization objectives. The naive approach to solve equations~(\ref{eq:validity},\ref{eq:completeness}) is to compute $\tau$ for all possible k-sized subsets. This is an exact solution but it is computationally infeasible when $n >> k$ where $n=|\f|$. In practice $n \geq 100$ and $k \leq 10$ usually which means that we have ${n \choose k} = {100 \choose 10} \approx 1.7e^{13}$ possibilities. Hence we must find a way to prune the $\f'$ search space while still trying to find the optimal solution. A commonly used technique in such a setting is greedy incremental search as shown in Algorithm~\ref{alg:incSearch}. In case the optimization function  is  submodular or even weakly submodular \cite{submodularity2011}, greedy selection gives us a theoretical bound on the error of our selection. The (weakly) submodularity condition can be checked using the following definition from \cite{submodularity2011}.
+\begin{definition}(Submodularity Ratio) Let $g$ be a nonnegative set function. The submodularity ratio of $g$ with respect to a set $U$ and a parameter $k \geq 1$ is $$\gamma_{U, k}(g)=\min _{L \subseteq U, S:|S| \leq k, S \cap L=\emptyset} \frac{\sum_{x \in S} g(L \cup\{x\})-g(L)}{g(L \cup S)-g(L)},$$
+where the ratio is considered to be equal to $1$
+when its numerator and denominator are both
+$0$. Then $g$ is submodular if and only if $\gamma_{U, k}(f)\ge 1$ for all $U$ and $k$. If $\gamma = \min_{U,k} \gamma_{U, k}(f) \in (0,1)$, the function is said to be weakly submodular.
+\end{definition}
+In our case the function $g$ corresponds to the rank correlation measure $\tau$ between the original ranking and a new ranking obtained by adding new feature $f$ to an existing explanation $\f'$. Because of black box nature of our ranking models, neither submodularity nor weak submodularity of the objective function can be guaranteed which hinders us from achieving any theoretical guarantees for the solution. Nevertheless in practice greedy solutions have been shown to provide convincing and better results (for example see \cite{streamweaksub2017}).
+
+
+% The problem here is that our optimization function contains output of a black box model the properties of which are supposed to be unknown.
+
+% \todo{by linear additive model, do you mean linear regression model, is it a known terminology?}
+% For linear additive ranking models such as linear regression, where a feature's contribution to the score $\Phi(\x)$ is independent of other features, we can safely 
+
+% \todo{some theoretical justification for greedy not having any bounds in our setting}
+
+
+%Our objective is to find a subset of features that is both complete and valid for a given model for a given query. 
+%Since most ranking models are not additive feature models and often encode feature dependencies, an exact solution would require testing of all possible k-sized subsets which is computationally intensive and time consuming when $|F| >> k$. This is often the case in practice where $|F| > 100$ and $k \leq 10$ usually.
+In the following section we present our greedy approach and its two variants which optimize a slightly different objective than the validity or completeness score. In principle, we observe that for very large datasets, it would not always be feasible to compute ranking correlations in each iteration (as in line 4 of Algorithm~\ref{alg:incSearch}). Instead we resort to an equivalent proxy measure defined over ranking scores of the documents to replace the objective function. Our first approach is a simple greedy incremental search optimizing the proxy objective. We then present two new heuristics which show considerable improvements over the greedy solution. 
+% In the following section we present a computationally feasible and flexible framework to identify fixed size explanations for learning to rank models. The key intuition behind our methodology is to aggregate the impact of a feature on pairwise preferences extracted from $\pi$ to iteratively construct $\f'$. The essential component of our approach is the construction of a data structure we call the \textit{preference matrix} that captures the impact of features on pairs. Once the matrix is constructed, we use a greedy approach that maximizes an objective correlated with \ref{eq:validity} or \ref{eq:completeness} to iteratively select features for $\f'$.
+
+\subsection{Our Solution Framework}
+\label{sec:matrix}
+We recall that in any LTR model, we obtain certain ranking/relevance scores corresponding to each document-query pair which are alter used to obtain a ranked list. Roughly speaking, if for document query pairs $\x_i$ and $\x_j$, the scores are such that $\Phi(\x_i) > \Phi(\x_j)$, then the document corresponding to $\x_i$ is ranked higher than the one corresponding to $\x_j$.
+
+We construct a $n\times m$ \textbf{preference matrix} where the rows represent $n$ features or subsets of features from $\f$ and the columns are $m$ pairwise document relevance/preferences that we extract from the output ranked list $\pi$, an example in table~\ref{tab:Matrix}, limited to size this table, it has reduced the features and quantity, only for a display on how the feature selected, positive cells are marked in light blue. From $\pi$ we first extract item preferences $\x_i > \x_j$  such that $\Phi(\x_i) > \Phi(\x_j)$ which are concordant item pairs. The set of preferences is denoted by $P$ and each pair is denoted by $p_{ij}$. For short ranked lists we can utilize all possible pairs but for larger ranked list we sample pairs (otherwise we can as well calculate directly $\tau$), basically, for dataset MQ2008, we sample 50 pairs, for MSLR which normally has more pairs, so we increase the number to be 100. In our experiments we use a rank biased method of sampling where pairs that include top ranked documents are more likely to be selected, for example, $d_{1}>d_{7}$ has more possibility than $d_{3}>d_{6}$, this is because the distance between $d_{1}$ and $d_{7}$ is greater than $d_{3}$ and $d_{6}$, which means it contains more information.
+
+\begin{table}[]
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+    & \rowcolor[gray]{0.8}d1>d2   & d1>d7   & d3>d4   & d5>d7   & d6>d8   \\ \hline
+\cellcolor[gray]{0.8}F1  & -0.2123 & -0.8123 & -0.2312 & -0.0001 & 0       \\ \hline
+\cellcolor[gray]{0.8}F3  & -0.1222 & -0.3233 &\cellcolor{intnull} 0.9822  &\cellcolor{intnull} 0.0002  & -0.2122 \\ \hline
+\cellcolor[gray]{0.8}F12 &\cellcolor{intnull} 1.2333  &\cellcolor{intnull} 2.3234  &\cellcolor{intnull} 0.2126  & -0.3243 & -0.3442 \\ \hline
+\cellcolor[gray]{0.8}F33 & -0.2424 & \cellcolor{intnull}0.3231  &\cellcolor{intnull} 1.3424  & -0.9945 & -0.2003 \\ \hline
+\cellcolor[gray]{0.8}F41 & -0.3242 & 0       & -0.1345 &\cellcolor{intnull} 1.3553  & \cellcolor{intnull}0.5678  \\ \hline
+\end{tabular}\caption{Preference Matrix for features}\label{tab:Matrix}
+\end{table}
+
+
+
+\mpara{Propensity calculation}: Each row in our matrix denotes the impact of adding $f$ to $\f'$ for every $p \in P$. We compute each cell value $z^{f}_{p}$ depending on the objective.
+
+\begin{itemize}
+    \item \textbf{Validity}: From our definition of validity, a good $\f'$ produces a ranked list $\pi'$ that has high rank correlation with $\pi$. Therefore $\pi'$ should preserve as many concordant item pairs from $\pi$ as possible. For a pair $p_{ij}$ to remain concordant then $\x_i > \x_j$ even in $\pi'$. We estimate the likelihood of a pair  $p_{ij}$ being concordant in $\pi'$ when a feature $f$ is added to $\f'$ by calculating the score difference of $\x_i$ and $\x_j$ in $\pi'$ when $\f' = \f' \cup f$. More specifically, 
+    \begin{equation}
+        z^{f}_{p} = (\Phi^{\f'}( \x_{i}) - \Phi^{\f'}(\x_{j})) * w_p
+    \end{equation}
+    
+    where $\Phi^{F'}$ denotes that $\Phi$  is computed only using $\f'$ and $w_p$ is a weighting factor for each pair (column). Intuitively, pairs with larger rank difference are more important to preserve than smaller ones in order to maximize $\tau$. In our experiments we set $w_p = j-i$.
+
+    % Note that for certain pairwise or listwise models, we do not get a score but instead a classification decision or new ranked list $\tau'$. In this case  
+
+    % \todo{ this does not happen with current implementation and to be honest only in listwise approaches is this an issue. with pairwise approaches we still get a score based on the aggregations}
+    
+    \item  \textbf{Completeness} Now for the case of finding an $\f'$ that is complete we need to find a subset of features that decreases rank correlation of $\pi'$ with $\pi$. This implies selecting features that change the concordant pairs in $\pi$ to discordant pairs in $\pi'$. We estimate the likelihood of a pair $p_{ij}$ being disconcordant in $\pi'$ when a feature $f$ is added to $\f'$ by calculating the score difference of $\x_j$ and $\x_i$ in $\pi'$ when $\f' = \f' \cup f$. More specifically, 
+    \begin{equation}
+        z^{f}_{p} = (\Phi^{\f\setminus F}(\x_{j}) - \Phi^{\f\setminus F}(\x_{i})) * w_p.
+    \end{equation}
+    
+    Note that by making pairs discordant we are minimizing $\tau$ which is increasing completeness. 
+\end{itemize}
+
+In the first iteration $\f'$ is empty and $\f' \cup f = f$. We construct the preference matrix in this manner for all features $f \in F$ and all pairs $p \in P$. Now the question is how do we select $k$ features to populate $\f'$. 
+
+    
+% \subsubsection{Greedy feature selection}
+% \label{sec:greedy}
+
+\mpara{\textbf{Greedy Feature Selection}.} We utilize a greedy iterative procedure to select features. We first estimate the utility of adding a feature to $\f'$ by aggregating the likelihood values for every pair in $P$, i.e. 
+$$u(f) = \sum_{p \in P} z^{f}_{p}.$$
+We now select the feature $f$ that has the maximum utility in this iteration to be added to $\f'$. The utility of $f$ at a given step of the procedure $i$ is denoted as $u_i(f)$. Once the feature $f$ is selected ($\f' = \f' \cup f$), we remove it from the preference matrix and recompute the preference matrix. In step $i+i$, we once again estimate the utility of all features in $\f / \f'$. There natural stopping criteria for this approach is when $|\f'| = k$. However, in traditional greedy approaches the stopping criteria is to naturally halt when adding a new feature does not increase utility. Simply put, if $$\argmax_{f \in \f \setminus \f'} u_i(f) > \argmax_{f^* \in \f \setminus (\f' \cup f)} u_{i+1}(f^*)$$ then do not add $f^*$ and stop. This means that an explanation can also be smaller than $k$ if a new feature does not improve utility. We denote this approach in our experiments as \greedy. 
+
+\mpara{\textbf{\greedycov and \greedycovep}.} The drawback of \greedy  however is that we do not directly care about the number of concordant or discordant pairs that results in adding $f$ to $\f'$. When considering validity, the utility a feature in step $i+1$ can also increase not because a new pair becomes concordant (i.e. $z^{f}_{p} > 0$ now whereas in step $i$ $z^{f}_{p} < 0$) but also because an existing concordant pair's score difference may increase which does not add value when optimizing for $\tau$. To account for this, we devise a greedy heuristic that instead of maximizing utility over all pairs in $P$ at step $i$, only maximizes utility for all pairs $\P \subseteq P$ where $\P$ is the set of all pairs that were not already considered concordant by the explanation set at step $i-1$. Just like $\f'$, $\P$ is also updated incrementally. After selecting the feature $f$ with maximum utility at step $i$, all pairs $p$ for which $z^{f}_{p} < \epsilon$ are added to $\P$. $\epsilon$ is a threshold that allows us to control which pairs are considered covered, take table~\ref{tab:Matrix} for an example, after we choosed $F12$, the next feature we selected is not $F33$, but $F41$, since $d_{1}>d_{2},d_{1}>d_{7},d_{3}>d_{4}$ have already been covered. When $\epsilon = 0$ we strictly consider only pairs that are still discordant. Raising the value of $\epsilon$ lets us also add pairs for which $z^{f}_{p}>0$.
+% Essentially we want to only add pairs where our estimate is not confident, i.e. $\epsilon >> 0$.
+
+In the next iteration $i+i$, the matrix is constructed with all pairs $p \in P\setminus\P$. In this way, we continue selecting features that only maximize the utility of pairs not already covered by some state of $\f'$. Note that this approach is predicated on the assumption that adding a feature to $\f$ does not change the concordance of a previously covered pair. While this assumption can seem limiting, in our experiments we show that this allows our approach to maximize validity or completeness by focusing on different parts of the ranked list incrementally. We call this variation \greedycov when $\epsilon=0$ and \greedycovep  when $\epsilon>0$ in our experiments. 
+
+\mpara{\textbf{3 seed strategy.}} In addition for adding the first feature to the explanation set, we choose the top 3 candidates/seeds and switch to choosing the best from the second iteration there on. Since we will delete the pairs that has been covered in the previous step at each step iteration, but if we chose the wrong feature in the previous step, this will cause the coverage matrix to be severely damaged, especially the wrong choice of the first feature is particularly serious. This simple strategy greatly improved the selections over starting from a single choice, which reduce the probability of wrong selection. The reason why we do not do beamsearch for every iteration is that, it will generate too many branches, that is unrealistic for experiment. Further more, if we increase the seed size, say 5 or 10, the result is expected to improve, but this also increases the amount of calculation
+
+% Algorithm~\ref{alg:pref} describes our approach succinctly.
+
+% \todo{ explain beam (3 seed) procedure}
