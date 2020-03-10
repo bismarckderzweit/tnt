@@ -1,0 +1,3 @@
+# DICOM Viewer and Cochlear implant Positioning
+
+In this repo there are a 3d viewer of DICOM file, I extended this repos[viewer](https://www.mathworks.com/matlabcentral/fileexchange/45661-dicom-view), added many features to better fit our task，some other files are about cochlear implant path finding，since time is long and there is no free time, I will not organize and explain them for the time being.
